@@ -1,7 +1,18 @@
 .video-prom{
-    background-image: url('../img/homepage.jpg');
+    background-color: #44a4d8;
     background-size: cover;
+    font-family: "Lato","Arial",sans-serif;
     text-align: center;
+    color: white;
+
+}
+
+.prom{
+    font-size: 40px;
+}
+
+.video{
+    border: 10px solid #91cdf5;
 }
 
 .footer{

@@ -12,6 +12,13 @@
     font-family: "Muli";
 }
 
+.Social-wall{
+    background-size: cover;
+    font-family: "Muli","Arial",sans-serif;
+    text-align: center;
+    color: #2575aa;
+}
+
 .methodo{
     text-align: center;
     background-color: #f3f3f3;

@@ -22,19 +22,19 @@
 }
 
 .menu {
-    color: #7A7F82;
-    font-family: "Bebas Neue";
+    color: black;
+    font-family: "Muli";
 }
 
 .actualites{
     color: white;
-    font-family: "Bebas Neue";
+    font-family: "Muli";
 }
 
 .methodo{
     text-align: center;
     background-color: #f3f3f3;
-    font-family: "Lato","Arial",sans-serif;
+    font-family: "Muli","Arial",sans-serif;
     font-size: 24px;
 }
 

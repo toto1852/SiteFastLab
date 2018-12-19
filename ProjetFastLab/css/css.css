@@ -19,6 +19,10 @@
     color: #2575aa;
 }
 
+.hr{
+    display:inline;
+}
+
 .methodo{
     text-align: center;
     background-color: #f3f3f3;
@@ -40,4 +44,8 @@
 
 .contacteznous{
     color: #4387AC;
+}
+
+.footer_link{
+    color: white;
 }

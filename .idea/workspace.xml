@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544609086904" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+=======
   <component name="ChangeListManager">
     <list default="true" id="79a372cf-b094-47a1-862e-f2ac1331a39c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/frise_methodo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetFastLab/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetFastLab/css/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetFastLab/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetFastLab/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/video.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homepage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/youtube.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProjetFastLab/ProjetFastLab.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -28,20 +32,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjetFastLab/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjetFastLab/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -49,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/video.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -75,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/video.css" />
         <option value="$PROJECT_DIR$/ProjetFastLab/homepage.html" />
         <option value="$PROJECT_DIR$/ProjetFastLab/css/css.css" />
       </list>
@@ -109,6 +109,11 @@
             <path>
               <item name="SiteFastLab" type="b2602c69:ProjectViewProjectNode" />
               <item name="SiteFastLab" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SiteFastLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SiteFastLab" type="462c0819:PsiDirectoryNode" />
               <item name="ProjetFastLab" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -116,6 +121,18 @@
               <item name="SiteFastLab" type="462c0819:PsiDirectoryNode" />
               <item name="ProjetFastLab" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SiteFastLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SiteFastLab" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetFastLab" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SiteFastLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SiteFastLab" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetFastLab" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,13 +194,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13257000" />
+    <option name="totallyTimeSpent" value="12708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1059" y="311" width="1400" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,40 +304,34 @@
       </map>
     </option>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/frise_methodo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjetFastLab/ProjetFastLab.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/video.css">
+    <entry file="file://$PROJECT_DIR$/ProjetFastLab/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjetFastLab/homepage.html">
+    <entry file="file://$PROJECT_DIR$/css/video.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjetFastLab/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="357">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProjetFastLab/ProjetFastLab.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
+>>>>>>> master
 </project>

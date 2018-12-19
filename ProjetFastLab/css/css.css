@@ -41,3 +41,87 @@
 .contacteznous{
     color: #4387AC;
 }
+
+#to-show {
+    display: none;
+}
+#to-hover:hover > #to-show {
+    display: block;
+}
+
+.imagine {
+    position: relative;
+    left: 0px;
+    top: -341px;
+    z-index: -1;
+    display: none;
+}
+
+
+.shape {
+    position: relative;
+    left: -70px;
+    top: -341px;
+    z-index: -2;
+    display: none;
+}
+
+.getready {
+    position: relative;
+    left: -140px;
+    top: -341px;
+    z-index: -3;
+    display: none;
+}
+
+.make {
+    position: relative;
+    left: -210px;
+    top: -341px;
+    z-index: -4;
+    display: none;
+}
+
+.propulse {
+    position: relative;
+    left: -280px;
+    top: -341px;
+    z-index: -5;
+    display: none;
+}
+
+.imaginebg {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -6;
+}
+
+
+.shapebg {
+    position: relative;
+    left: -70px;
+    top: 0px;
+    z-index: -7;
+}
+
+.getreadybg {
+    position: relative;
+    left: -140px;
+    top: 0px;
+    z-index: -8;
+}
+
+.makebg {
+    position: relative;
+    left: -210px;
+    top: 0px;
+    z-index: -9;
+}
+
+.propulsebg {
+    position: relative;
+    left: -280px;
+    top: 0px;
+    z-index: -10;
+}

@@ -3,204 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <title>Politique de protection des données personnelles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../ProjetFastLab/css/Offre.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+          integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-<div>Politique de protection des données personnelles
-    Préambule
-    Groupe Open et ses filiales au sens de l’article L.233-3 du Code de Commerce (ci-après "Open") procède au traitement de Données Personnelles (telles que définies ci-après) dans le cadre de son activité, ce qui inclut les Données Personnelles des personnes qui naviguent sur les sites Web d’Open (les "Sites").
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a href="../ProjetFastLab/homepage.html"><img src="../ProjetFastLab/img/logo_fastlab_byopen_0.png"  height="30" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    La présente "Politique de Protection des Données Personnelles" (la "Politique") a pour objet d’informer toutes les personnes physiques concernées ("Vous" ou "Votre/Vos") sur la manière dont Open collecte et utilise de telles Données Personnelles et sur les moyens dont Vous disposez pour contrôler cette utilisation.
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link menu" href="../ProjetFastLab/Notre%20Offre.html">NOTRE OFFRE </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#">NOTRE FASTLAB </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu" href="#">NOTRE EQUIPE </a>
+                </li>
+                <li class="nav-item">
+                    <a target="_BLANK" class="nav-link menu" href="https://www.open.global/fr">OPEN</a>
+                </li>
+                <li class="nav-item">
+                    <button data-toggle="modal" data-target="#ModalContact"class="btn border menu">CONTACTEZ-NOUS</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    Champ d’application de la présente politique de protection des données personnelles
-    La présente Politique énonce les principes et lignes directrices pour la protection de Vos Données Personnelles, ce qui inclut les Données Personnelles collectées sur - ou via - les sites.
+<!-- CONTACT FORM -->
+<div class="modal fade" id="ModalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content modalColor">
+            <div class="modal-header border-0 contacteznous">
+                <hr width="10%" color="#4387AC" size="5"><h5 class="text-center">Contactez-nous</h5><hr width="10%" color="#4387AC">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            NOM
+                            <input type="text" class="form-control rounded-0 border-0">
+                            FONCTION
+                            <input type="text" class="form-control rounded-0 border-0">
+                            JE VOUDRAIS ETRE CONTACTE(E) AU SUJET DE*
+                            <input type="text" class="form-control rounded-0 border-0">
+                            POLITIQUE DE PROTECTION DES DONNEES PERSONNELLES*
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    J'ai lu et j'accepte
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            PRENOM
+                            <input type="text" class="form-control rounded-0 border-0">
+                            SERVICES
+                            <select class="form-control rounded-0 border-0">
+                                <option selected>Sélectionner</option>
+                                <option>Informatique</option>
+                                <option>Informatique</option>
+                                <option>Informatique</option>
+                                <option>Informatique</option>
+                            </select>
+                            EMAIL*
+                            <input type="text" class="form-control rounded-0 border-0">
+                            TELEPHONE
+                            <input type="text" class="form-control rounded-0 border-0">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-primary rounded-0 btn-soumettre border-0">SOUMETTRE</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-    Open collecte des Données Personnelles en ligne (y compris par e-mail) ou hors connexion ; la présente Politique s’applique quel que soit le mode de collecte ou de traitement.
+<!---PAGE CONTENT--->
+<div class="standard-content col-sm-4" id="part1">
+    <h2>
+        <strong><span class="color-picton-blue">Politique de protection des données personnelles</span></strong>
+    </h2>
+    <h3>Préambule</h3>
+    <p>Groupe Open et ses filiales au sens de l’article L.233-3 du Code de Commerce (ci-après "Open") procède au traitement de Données Personnelles (telles que définies ci-après) dans le cadre de son activité, ce qui inclut les Données Personnelles des personnes qui naviguent sur les sites Web d’Open (les "Sites").</p><p>La présente "Politique de Protection des Données Personnelles" (la "Politique") a pour objet d’informer toutes les personnes physiques concernées ("Vous" ou "Votre/Vos") sur la manière dont Open collecte et utilise de telles Données Personnelles et sur les moyens dont Vous disposez pour contrôler cette utilisation.</p><h3>&nbsp;Champ d’application de la présente politique de protection des données personnelles</h3><p>La présente Politique énonce les principes et lignes directrices pour la protection de Vos Données Personnelles, ce qui inclut les Données Personnelles collectées sur - ou via - les sites.</p><p>Open collecte des Données Personnelles en ligne (y compris par e-mail) ou hors connexion ; la présente Politique s’applique quel que soit le mode de collecte ou de traitement.</p><p>La notion de données personnelles (les « Données Personnelles ») désigne toute information relative à une personne physique identifiée ou identifiable. Une personne est « identifiable » dès lors qu’elle peut être identifiée, directement ou indirectement, en particulier par référence à un numéro d’identification ou à un ou plusieurs éléments qui lui sont propres.</p><p>Les « Données Non-Personnelles » correspondent à des informations ne permettant pas d’identifier une personne.</p><p>Note à l’attention des visiteurs et utilisateurs des Sites : chaque Site est soumis à des Conditions d’Utilisation spécifiques disponibles sur chacun des Sites et qui font partie de la présente Politique. Votre utilisation des Sites ainsi que les Données Personnelles que Vous accepterez de communiquer sur les Sites sont soumises aux dispositions de la présente Politique et aux Conditions d’Utilisation applicables.</p><p><strong>Données collectées</strong></p><p>Les Données Personnelles peuvent inclure ce qui suit :</p><ul><li>&nbsp;Fonctions ;</li><li>&nbsp;prénom et nom ;</li><li>adresse postale ;</li><li>adresse électronique ;</li><li>numéro(s) de téléphone ;</li><li>login et mot de passe ;</li><li>université, diplôme et cours suivis ;</li><li>type d’organisation (société, école, université, etc.), nom de l’organisation, taille de l’organisation, service et intitulé du poste ;</li><li>industrie et sous-secteurs industriels ;</li><li>mode de livraison et personnes auxquelles les achats doivent être expédiés ;</li><li>données financières (numéro de carte de crédit et date d’expiration, nom et adresse du titulaire de la carte) ;</li><li>adresse IP, et</li><li>&nbsp;toute autre Donnée Personnelle pouvant s’avérer pertinente aux fins énoncées ci-après.</li></ul><p>En tout état de cause, les Données Personnelles collectées se limiteront toutefois aux données nécessaires aux fins exposées à l’Article 4 ci-après.</p><p>Note à l’attention des visiteurs et utilisateurs des Sites : certaines fonctionnalités et caractéristiques du Site, ne peuvent être utilisées que si Vous communiquez à Open certaines Données Personnelles lorsque Vous visitez ou utilisez le Site. Vous êtes libre de fournir ou non tout ou partie de Vos Données Personnelles. Toutefois, si Vous choisissez de ne pas les fournir, une telle décision pourrait empêcher la réalisation ou la réalisation satisfaisante des objectifs décrits à l’Article 4 ci-après, certains services et certaines fonctionnalités des Sites pourraient ne pas fonctionner correctement et/ou Vous vous verrez refuser l’accès à certaines pages du Site. En particulier, Vous ne serez pas autorisé à acheter des licences logicielles ou d’autres produits ou services via le Site.</p><h3>Finalités de la collecte des données personnelles</h3><p>Comme indiqué ci-dessus, Vous fournissez Vos Données Personnelles de manière volontaire.</p><p>Les Données Personnelles sont généralement collectées pour les besoins de l’activité de Open tels que l’amélioration des efforts marketing et publicitaires d’Open, une meilleure adaptation des produits et services de Open aux besoins des clients ou le respect des obligations déclaratives prévues par la loi, et d’autres activités similaires.</p><p>Open collecte et utilise les Données Personnelles Vous concernant pour les besoins de son activité et notamment aux fins suivantes :</p><ul><li>Vous permettre de demander et d’obtenir des informations sur Open et les produits et services de Open ;</li>
+    <li>Vous permettre une utilisation interactive et personnalisée des Sites ;</li>
+    <li>Cerner Vos besoins et centres d’intérêt et pour Vous fournir les produits et/services les mieux adaptés ;</li>
+    <li>Vous permettre d’ouvrir et de gérer un compte afin d’obtenir de la documentation spécialisée et une assistance technique ;</li>
+    <li>Accéder à l’ensemble des caractéristiques et options offertes par les Sites ;</li>
+    <li>Vous permettre d’échanger avec les autres utilisateurs des Sites ;</li>
+    <li>Vous permettre de participer à un concours ;</li>
+    <li>Permettre à Open de gérer les enquêtes ;</li>
+    <li>Permettre à Open de gérer ses activités marketing ;</li>
+    <li>Permettre à Open de gérer ses relations commerciales : opportunités, commerciales, offres commerciales, achats, contrats, commandes, factures, etc ;</li>
+    <li>Vous proposer des services de type commercial ou de support ;</li>
+    <li>Vous permettre d’acheter des licences logicielles, produits ou services, de télécharger des logiciels et/ou d’enregistrer des licences logicielles ;</li>
+    <li>Vous permettre de Vous inscrire à des séminaires, webinaires ou évènements ;</li>
+    <li>Permettre à Open de gérer ses activités de Recherche et Développement : demandes de développement, incidents, les questions de qualité, tests, etc. ;</li>
+    <li>Traiter les candidatures et gérer les sources de recrutement ;</li>
+    <li>Gérer Votre formation et/ou certification sur les produits et services de Open ;</li>
+</ul>
+    <p>Sous réserve de la législation locale applicable, en fournissant Votre adresse de courrier électronique, Vous autorisez expressément Open à l’utiliser avec d’autres Données Personnelles utiles pour Vous envoyer des messages commerciaux ou de marketing.</p>
+    <p>Open est également susceptible d’utiliser Votre adresse de courrier électronique à des fins administratives ou d’autres objectifs ne relevant pas du marketing (par exemple, pour Vous notifier d’importants changements apportés aux Sites).</p>
 
-    La notion de données personnelles (les « Données Personnelles ») désigne toute information relative à une personne physique identifiée ou identifiable. Une personne est « identifiable » dès lors qu’elle peut être identifiée, directement ou indirectement, en particulier par référence à un numéro d’identification ou à un ou plusieurs éléments qui lui sont propres.
+    <h3>Cookies</h3>
+    <p>Les Sites peuvent utiliser des cookies ou d’autres technologies susceptibles de collecter ou conserver des Données Personnelles. Les cookies sont des fichiers textes stockés et utilisés pour enregistrer des Données Personnelles et Non Personnelles concernant Votre navigation sur les Sites. Les cookies peuvent être permanents (et rester après Votre déconnexion des Sites afin d’être utilisés lors de Vos visites ultérieures sur les Sites) ou temporaires (et disparaître dès que Vous vous déconnectez des Sites).</p>
+    <p>Open utilise des cookies afin de :</p>
+    <ul>
+        <li>améliorer votre expérience d’utilisateur, notamment en :</li>
+    </ul>
+    <p>- permettant à un service de reconnaître Votre matériel, ainsi Vous n’aurez pas à fournir plusieurs fois les mêmes informations afin d’exécuter la même tâche,<br>- reconnaissant le nom d’utilisateur et le mot de passe que Vous avez déjà fournis afin que vous n’ayez pas à les refournir sur chaque page web qui en ferait la demande</p>
+    <ul>
+        <li>analyser le trafic et les données sur les Sites afin de :</li>
+    </ul>
+    <p>- mesurer le nombre d’utilisateurs des services, permettant ainsi de les rendre plus faciles à utiliser et de s’assurer de leur capacité à répondre de manière rapide à Vos requêtes,<br>- aider Open à comprendre la manière dont les utilisateurs interagissent avec les services afin de les améliorer.</p>
+    <p>Open peut également recourir aux services de prestataires tiers (tels qu’Adobe Analytics, Google Analytics, LinkedIn, etc.) aux fins d’exécuter les services pour son compte et notamment pour :</p>
+    <ul>
+        <li>analyser Vos habitudes de navigation et mesurer l’audience des Sites,</li>
+        <li>analyser Vos centres d’intérêts et Vous proposer des offres marketing ou publicitaires ciblées,</li>
+        <li>vous permettre de partager le contenu des Sites avec d’autres personnes sur les réseaux sociaux ou de faire savoir à ces autres personnes ce que Vous regardez ou ce que Vous pensez (par ex. le bouton « J’aime » sur Facebook)</li>
+    </ul>
+    <p>Dans ce cas, des pixels invisibles et des cookies fournis par ces prestataires tiers pourraient être utilisés et conservés. Lors de la transmission des informations générées par ces cookies, les paramètres des cookies veillent à ce que l’adresse IP soit rendue anonyme avant la géo-localisation et avant la conservation. Nos prestataires utiliseront ces informations aux fins d’évaluer Votre utilisation des Sites, de rédiger des rapports sur l’activité des Sites pour Open, et de Vous proposer de meilleurs services et des publicités ciblées sur Vos besoins. Ils n’associeront votre adresse IP à aucune autre de leurs données.</p>
+    <p>Lorsque vous naviguez sur les Sites, les cookies sont activés par défaut et les données peuvent être lues ou conservées localement sur votre matériel. Vous serez averti la première fois que Vous recevez un cookie et Vous pourrez ainsi décider de l’accepter ou de le refuser. En continuant d’utiliser les Sites, Vous acceptez expressément l’utilisation par Open de tels cookies.</p>
+    <p>Vous pouvez également configurer Votre navigateur de manière à refuser systématiquement les cookies (y compris les cookies utilisés à des fins de mesure d’audience). Toutefois, si tel était cas, certaines fonctionnalités et caractéristiques des Sites pourraient ne pas fonctionner correctement et Vous pourriez ne pas être en mesure de pouvoir accéder à certain(e)s parties ou services des Sites.</p>
+    <p>Si vous souhaitez modifier ou supprimer vos informations, vous pouvez adresser votre demande à <a href="mailto:dpo@open-groupe.com?subject=Politique%20de%20protection%20des%20donn%C3%A9es%20personnelles">dpo@open-groupe.com</a>
+    </p>
 
-    Les « Données Non-Personnelles » correspondent à des informations ne permettant pas d’identifier une personne.
+    <h3>Conditions de traitement et de stockage des données personnelles</h3>
+    <p>Le « traitement » des Données Personnelles inclut notamment l’utilisation, la conservation, l’enregistrement, le transfert, l’adaptation, l’analyse, la modification, la déclaration, le partage et la destruction des Données Personnelles en fonction de ce qui est nécessaire au regard des circonstances ou des exigences légales.</p>
+    <p>Toutes les Données Personnelles collectées sont conservées pour une durée limitée en fonction de la finalité du traitement et uniquement pour la durée prévue par la législation applicable.</p>
 
-    Note à l’attention des visiteurs et utilisateurs des Sites : chaque Site est soumis à des Conditions d’Utilisation spécifiques disponibles sur chacun des Sites et qui font partie de la présente Politique. Votre utilisation des Sites ainsi que les Données Personnelles que Vous accepterez de communiquer sur les Sites sont soumises aux dispositions de la présente Politique et aux Conditions d’Utilisation applicables.
+    <h3>Liens vers des sites web non controlés par Open</h3>
+    <p>Les Sites peuvent proposer des liens vers des sites Internet de tiers susceptibles de Vous intéresser.</p>
+    <p>Open n'exerce aucun contrôle sur le contenu de sites de tiers ou sur les pratiques de ces tiers en matière de protection des Données Personnelles qu'ils pourraient recueillir. En conséquence, Open décline toute responsabilité concernant le traitement par ces tiers de Vos Données Personnelles. Il est de votre responsabilité de Vous renseigner sur les politiques de protection des données personnelles de ces tiers.</p>
 
-    Données collectées
+    <h3>Transfert de données personnelles</h3>
+    <p>En cas d’accès aux Sites depuis un pays non membre de l’Union européenne dont la législation relative à la collecte, à l’utilisation et au transfert de données diffère de celles de l’Union européenne, nous attirons votre attention sur le fait qu’en continuant d’utiliser les Sites, qui sont régis par le droit français, les Conditions d’utilisation correspondantes et la présente Politique, Vous transférez Vos Données Personnelles vers l’Union européenne et consentez à ce transfert.</p>
+    <p>Vos Données Personnelles peuvent être divulguées au sein d’Open aux fins énoncées à l’Article 4 de la présente Politique.</p>
+    <p>Open peut transférer Vos Données Personnelles en dehors de l’Union européenne, à condition de s’assurer, avant de les transférer, que les entités extérieures à l’Union européenne, offrent un niveau de protection adéquat, conformément à la législation européenne en vigueur.</pp>Si Open apprenait qu’un tiers auquel Open a communiqué des Données Personnelles aux fins énoncées à l’Article 4 ci-dessus, utilise ou divulgue des Données Personnelles sans respecter la présente Politique ou en violation de la législation applicable, Open prendrait toute mesure raisonnable pour prévenir ou mettre fin à une telle utilisation ou divulgation.</p>
+    <p>Vous disposez également du droit d’autoriser ou non Open à utiliser Vos Données Personnelles pour une finalité autre que celles pour lesquelles ces Données Personnelles ont initialement été collectées. Vous pouvez vous opposer à cet usage en vous adressant à l’adresse suivante : <a href="mailto:dpo@open-groupe.com?subject=Politique%20de%20protection%20des%20donn%C3%A9es%20personnelles">dpo@open-groupe.com</a></p>
+    <p>Open peut également être amené à transférer Vos Données Personnelles à des tiers si Open estime qu’un tel transfert est nécessaire pour des raisons techniques (par exemple, pour des services d’hébergement par un tiers) ou pour protéger ses intérêts légaux (par exemple, en cas de vente d’actifs à une société tiers, de changement de contrôle ou de liquidation totale ou partielle d’Open).</p>
+    <p>En outre, Open peut partager Vos Données Personnelles au revendeur dont Vous dépendez ou affecté au territoire dans lequel Vous vous trouvez pour les besoins de l’activité d’Open. Open peut également partager vos Données Personnelles avec des partenaires commerciaux lorsqu’Open et le partenaire commercial sponsorisent conjointement un évènement ou participent ensemble à une promotion marketing dans laquelle Vous vous engagez.</p>
+    <p>Open peut communiquer Vos Données Personnelles si la loi l’y oblige ou si Open estime de toute bonne foi qu’une telle divulgation est raisonnablement nécessaire pour se conformer à une procédure légale (par exemple, un mandat, une citation à comparaître ou toute autre décision de justice) ou pour protéger les droits, les biens ou la sécurité personnelle de Groupe Open, de nos clients ou du public.</p>
+    <p>Si la législation applicable le permet, Open peut également partager Vos Données Personnelles avec des tiers afin de Vous proposer des offres marketing ou publicitaires ciblées.</p>
+    <p>Ces transferts pourront avoir lieu par Internet ou par toute autre méthode jugée opportune par Open conformément à la législation applicable et aux politiques internes de sécurité de Groupe Open.</p>
 
-    Les Données Personnelles peuvent inclure ce qui suit :
+    <h3>Vos droits</h3>
+    <p style="text-align:justify"><em><strong>Votre droit d'accès et à la rectification de vos données</strong></em></p>
+    <p style="text-align:justify">Vous&nbsp;disposez du droit d’accéder et de faire rectifier vos données personnelles.</p>
+    <p style="text-align:justify">Vous pouvez nous demander que vos données personnelles soient, selon les cas, rectifiées, complétées si elles sont inexactes, incomplètes, équivoques, périmées.</p>
+    <p style="text-align:justify"><strong><em>Votre droit à l'effacement de vos données</em></strong></p>
+    <p style="text-align:justify">Vous pouvez nous demander l’effacement de vos données personnelles lorsque l’un des motifs suivants s’applique :</p>
+    <ul>
+        <li style="text-align: justify;">les données personnelles ne sont plus nécessaires au regard des finalités pour lesquelles elles ont été collectées ou traitées d’une autre manière ;</li>
+        <li style="text-align: justify;">vous retirez le consentement préalablement donné ;</li>
+        <li style="text-align: justify;">vous vous opposez au traitement de vos données personnelles pour motif légitime ;</li>
+        <li style="text-align: justify;">le traitement de données personnelles n’est pas conforme aux dispositions de la législation et de la réglementation applicable.</li>
+    </ul>
+    <p style="text-align: justify;">Néanmoins, l’exercice de ce droit ne sera pas possible lorsque la conservation de vos données personnelles est nécessaire au regard de la législation ou de la réglementation et notamment par exemple pour la constatation, l’exercice ou la défense de droits en justice.</p>
+    <p style="text-align: justify;"><strong><em>Votre droit à la limitation des traitements de données</em></strong></p>
+    <p style="text-align: justify;">Vous pouvez demander la limitation du traitement de vos données personnelles dans les cas prévus par la législation et la réglementation.</p>
+    <p style="text-align: justify;"><strong><em>Votre droit de vous opposer aux traitements de données</em></strong></p>
+    <p style="text-align: justify;">Vous avez le droit de vous opposer à un traitement de données personnelles vous concernant lorsque le traitement est fondé sur l’intérêt légitime du responsable du traitement.</p>
+    <p style="text-align: justify;"><strong><em>Votre droit à la portabilité de vos données</em></strong></p>
+    <p style="text-align:justify">Depuis le 25 mai 2018, vous disposerez du droit à la portabilité de vos données personnelles.</p>
+    <p style="text-align:justify">Les données sur lesquelles peut s’exercer ce droit sont :</p>
+    <ul>
+        <li style="text-align: justify;">uniquement vos données personnelles, ce qui exclut les données personnelles anonymisées ou les données qui ne vous concernent pas ;</li>
+        <li style="text-align: justify;">les données personnelles déclaratives ainsi que les données personnelles de fonctionnement évoquées précédemment ;</li>
+        <li style="text-align: justify;">les données personnelles qui ne portent pas atteinte aux droits et libertés de tiers telles que celles protégées par le secret des affaires.</li>
+    </ul>
+    <p style="text-align: justify;">Ce droit est limité aux traitements basés sur le consentement ou sur un contrat ainsi qu’aux données personnelles que vous avez personnellement générées.</p>
+    <p style="text-align: justify;">Ce droit n’inclut ni les données dérivées ni les données inférées, qui sont des données personnelles créées par OPEN.</p>
+    <p style="text-align: justify;"><strong><em>Votre droit de retirer votre consentement</em></strong></p>
+    <p style="text-align: justify;">Lorsque les traitements de données que nous mettons en œuvre sont fondés sur votre consentement, vous pouvez le retirer à n’importe quel moment. Nous cessons alors de traiter vos données à caractère personnel sans que les opérations antérieures pour lesquelles vous aviez consenti ne soient remises en cause.</p>
+    <p style="text-align: justify;"><strong><em>Votre droit d'introduire un recours</em></strong></p>
+    <p style="text-align: justify;">Vous avez le droit d’introduire une réclamation auprès de la Cnil sur le territoire français et ce sans préjudice de tout autre recours administratif ou juridictionnel.</p>
+    <p style="text-align: justify;"><strong><em>Votre droit de définir des directives post-mortem</em></strong></p>
+    <p style="text-align: justify;">Vous avez la possibilité de définir des directives relatives à la conservation, à l’effacement et à la communication de vos données personnelles après votre décès et ce auprès d’un tiers de confiance, certifié et chargé de faire respecter la volonté du défunt conformément aux exigences du cadre juridique applicable.</p>
+    <p style="text-align: justify;"><strong><em>Les modalités d'exercice de vos droits</em></strong></p>
+    <p>Tous les droits énumérés ci-avant peuvent être exercés à l'adresse e-mail suivante <a href="mailto:dpo@open-groupe.com">dpo@open-groupe.com</a> ou par courrier accompagné d'une copie d'un document d'identité en s'adressant au DPO d'Open à l'adresse suivante 28 rue Jacques Ibert 92 Levallois-Perret.</p>
+    <p>Si Vous disposez d’un compte, Vous pouvez exercer Vos droits d’accès et de rectification en Vous connectant à Votre compte.</p>
+    <p>Néanmoins, en ce qui concerne l’exercice du droit à l’information, nous pouvons ne pas avoir l’obligation d’y donner suite si :</p>
+    <ul>
+        <li>vous disposez déjà de cette information ;</li>
+        <li>l’enregistrement ou la communication de vos données personnelles sont expressément prévus par la loi ;</li>
+        <li>la communication d’informations se révèle impossible ;</li>
+        <li>la communication d’informations exigerait des efforts disproportionnés.</li></ul>
 
-    Fonctions ;
-    prénom et nom ;
-    adresse postale ;
-    adresse électronique ;
-    numéro(s) de téléphone ;
-    login et mot de passe ;
-    université, diplôme et cours suivis ;
-    type d’organisation (société, école, université, etc.), nom de l’organisation, taille de l’organisation, service et intitulé du poste ;
-    industrie et sous-secteurs industriels ;
-    mode de livraison et personnes auxquelles les achats doivent être expédiés ;
-    données financières (numéro de carte de crédit et date d’expiration, nom et adresse du titulaire de la carte) ;
-    adresse IP, et
-    toute autre Donnée Personnelle pouvant s’avérer pertinente aux fins énoncées ci-après.
-    En tout état de cause, les Données Personnelles collectées se limiteront toutefois aux données nécessaires aux fins exposées à l’Article 4 ci-après.
+    <h3>Sécurite et destinataires des données</h3>
+    <p>Open veille à protéger et sécuriser les Données Personnelles que Vous avez choisi de lui communiquer, afin d’assurer leur confidentialité et empêcher qu’elles ne soient déformées, endommagées, détruites ou divulguées à des tiers non autorisés.</p>
+    <p>Open a pris des mesures de protection physiques, électroniques et organisationnelles pour prévenir toute perte, mauvaise utilisation, accès ou diffusion non autorisé, altération ou destruction éventuelle de ces Données Personnelles. Parmi ces mesures de protection, Open intègre des technologies spécialement conçues pour protéger les Données Personnelles durant leur transfert. Toutefois, malgré les efforts d’Open pour protéger Vos Données Personnelles, Open ne peut pas garantir l’infaillibilité de cette protection en raison de risques inévitables pouvant survenir lors de la transmission de Données Personnelles.</p>
+    <p>Toutes les Données Personnelles étant confidentielles, leur accès est limité aux collaborateurs et prestataires&nbsp; Open qui en ont besoin dans le cadre de l’exécution de leur mission. Toutes les personnes ayant accès à Vos Données Personnelles sont tenues par une obligation de confidentialité et s’exposent à des mesures disciplinaires et/ou autres sanctions si elles ne respectent pas ces obligations.</p>
+    <p>Toutefois, il importe que Vous fassiez preuve de prudence pour empêcher tout accès non autorisé à Vos Données Personnelles. Vous êtes responsable de la confidentialité de Votre mot de passe et des informations figurant dans Votre compte. Par conséquent, Vous devez Vous assurer de fermer Votre session en cas d’utilisation partagée d’un même ordinateur.</p>
 
-    Note à l’attention des visiteurs et utilisateurs des Sites : certaines fonctionnalités et caractéristiques du Site, ne peuvent être utilisées que si Vous communiquez à Open certaines Données Personnelles lorsque Vous visitez ou utilisez le Site. Vous êtes libre de fournir ou non tout ou partie de Vos Données Personnelles. Toutefois, si Vous choisissez de ne pas les fournir, une telle décision pourrait empêcher la réalisation ou la réalisation satisfaisante des objectifs décrits à l’Article 4 ci-après, certains services et certaines fonctionnalités des Sites pourraient ne pas fonctionner correctement et/ou Vous vous verrez refuser l’accès à certaines pages du Site. En particulier, Vous ne serez pas autorisé à acheter des licences logicielles ou d’autres produits ou services via le Site.
+    <h3>&nbsp;Résolution des conflits</h3>
+    <p>Bien qu’Open ait pris des mesures raisonnables pour protéger les Données Personnelles, aucune technologie de transmission ou de stockage n’est totalement infaillible.</p>
+    <p>Toutefois, Open est soucieuse de garantir la protection des Données Personnelles. Si Vous avez des raisons de penser que la sécurité de Vos Données Personnelles a été compromise ou qu’elles ont fait l’objet d’une utilisation abusive, Vous êtes invité à contacter Open à l’adresse suivante : <a href="mailto:dpo@open-groupe.com?subject=Politique%20de%20protection%20des%20donn%C3%A9es%20personnelles">dpo@open-groupe.com</a></p>
+    <p>Open instruira les réclamations concernant l’utilisation et la divulgation de Données Personnelles et tentera de les résoudre conformément aux principes figurant dans la présente Politique.</p>
+    <p>L’accès non autorisé à des Données Personnelles ou leur mauvaise utilisation peut constituer une infraction aux termes de la législation locale.</p>
 
-    Finalités de la collecte des données personnelles
-    Comme indiqué ci-dessus, Vous fournissez Vos Données Personnelles de manière volontaire.
+    <h3>Contact</h3>
+    <p>Pour toute question concernant la présente Politique, pour ne plus recevoir d’informations de la part d’Open ou pour toute demande de rectification, complément, mise à jour ou suppression de Vos Données Personnelles, Vous pouvez envoyer un courrier électronique à l’adresse électronique suivante : <a href="mailto:dpo@open-groupe.com?subject=Politique%20de%20protection%20des%20donn%C3%A9es%20personnelles">dpo@open-groupe.com</a></p>
 
-    Les Données Personnelles sont généralement collectées pour les besoins de l’activité de Open tels que l’amélioration des efforts marketing et publicitaires d’Open, une meilleure adaptation des produits et services de Open aux besoins des clients ou le respect des obligations déclaratives prévues par la loi, et d’autres activités similaires.
+    <h3>Date d’entrée en vigueur et révisions de la politique de protection des données personnelles</h3>
+    <p>La présente Politique peut être mise à jour en fonction des besoins d’Open et des circonstances ou si la loi l’exige. Nous vous invitons par conséquent à prendre régulièrement connaissance des mises à jour.</p>
+</div>
 
-    Open collecte et utilise les Données Personnelles Vous concernant pour les besoins de son activité et notamment aux fins suivantes :
-
-    Vous permettre de demander et d’obtenir des informations sur Open et les produits et services de Open ;
-    Vous permettre une utilisation interactive et personnalisée des Sites ;
-    Cerner Vos besoins et centres d’intérêt et pour Vous fournir les produits et/services les mieux adaptés ;
-    Vous permettre d’ouvrir et de gérer un compte afin d’obtenir de la documentation spécialisée et une assistance technique ;
-    Accéder à l’ensemble des caractéristiques et options offertes par les Sites ;
-    Vous permettre d’échanger avec les autres utilisateurs des Sites ;
-    Vous permettre de participer à un concours ;
-    Permettre à Open de gérer les enquêtes ;
-    Permettre à Open de gérer ses activités marketing ;
-    Permettre à Open de gérer ses relations commerciales : opportunités, commerciales, offres commerciales, achats, contrats, commandes, factures, etc ;
-    Vous proposer des services de type commercial ou de support ;
-    Vous permettre d’acheter des licences logicielles, produits ou services, de télécharger des logiciels et/ou d’enregistrer des licences logicielles ;
-    Vous permettre de Vous inscrire à des séminaires, webinaires ou évènements ;
-    Permettre à Open de gérer ses activités de Recherche et Développement : demandes de développement, incidents, les questions de qualité, tests, etc. ;
-    Traiter les candidatures et gérer les sources de recrutement ;
-    Gérer Votre formation et/ou certification sur les produits et services de Open ;
-    Sous réserve de la législation locale applicable, en fournissant Votre adresse de courrier électronique, Vous autorisez expressément Open à l’utiliser avec d’autres Données Personnelles utiles pour Vous envoyer des messages commerciaux ou de marketing.
-
-    Open est également susceptible d’utiliser Votre adresse de courrier électronique à des fins administratives ou d’autres objectifs ne relevant pas du marketing (par exemple, pour Vous notifier d’importants changements apportés aux Sites).
-
-    Cookies
-    Les Sites peuvent utiliser des cookies ou d’autres technologies susceptibles de collecter ou conserver des Données Personnelles. Les cookies sont des fichiers textes stockés et utilisés pour enregistrer des Données Personnelles et Non Personnelles concernant Votre navigation sur les Sites. Les cookies peuvent être permanents (et rester après Votre déconnexion des Sites afin d’être utilisés lors de Vos visites ultérieures sur les Sites) ou temporaires (et disparaître dès que Vous vous déconnectez des Sites).
-
-    Open utilise des cookies afin de :
-
-    améliorer votre expérience d’utilisateur, notamment en :
-    - permettant à un service de reconnaître Votre matériel, ainsi Vous n’aurez pas à fournir plusieurs fois les mêmes informations afin d’exécuter la même tâche,
-    - reconnaissant le nom d’utilisateur et le mot de passe que Vous avez déjà fournis afin que vous n’ayez pas à les refournir sur chaque page web qui en ferait la demande
-
-    analyser le trafic et les données sur les Sites afin de :
-    - mesurer le nombre d’utilisateurs des services, permettant ainsi de les rendre plus faciles à utiliser et de s’assurer de leur capacité à répondre de manière rapide à Vos requêtes,
-    - aider Open à comprendre la manière dont les utilisateurs interagissent avec les services afin de les améliorer.
-
-    Open peut également recourir aux services de prestataires tiers (tels qu’Adobe Analytics, Google Analytics, LinkedIn, etc.) aux fins d’exécuter les services pour son compte et notamment pour :
-
-    analyser Vos habitudes de navigation et mesurer l’audience des Sites,
-    analyser Vos centres d’intérêts et Vous proposer des offres marketing ou publicitaires ciblées,
-    vous permettre de partager le contenu des Sites avec d’autres personnes sur les réseaux sociaux ou de faire savoir à ces autres personnes ce que Vous regardez ou ce que Vous pensez (par ex. le bouton « J’aime » sur Facebook)
-    Dans ce cas, des pixels invisibles et des cookies fournis par ces prestataires tiers pourraient être utilisés et conservés. Lors de la transmission des informations générées par ces cookies, les paramètres des cookies veillent à ce que l’adresse IP soit rendue anonyme avant la géo-localisation et avant la conservation. Nos prestataires utiliseront ces informations aux fins d’évaluer Votre utilisation des Sites, de rédiger des rapports sur l’activité des Sites pour Open, et de Vous proposer de meilleurs services et des publicités ciblées sur Vos besoins. Ils n’associeront votre adresse IP à aucune autre de leurs données.
-
-    Lorsque vous naviguez sur les Sites, les cookies sont activés par défaut et les données peuvent être lues ou conservées localement sur votre matériel. Vous serez averti la première fois que Vous recevez un cookie et Vous pourrez ainsi décider de l’accepter ou de le refuser. En continuant d’utiliser les Sites, Vous acceptez expressément l’utilisation par Open de tels cookies.
-
-    Vous pouvez également configurer Votre navigateur de manière à refuser systématiquement les cookies (y compris les cookies utilisés à des fins de mesure d’audience). Toutefois, si tel était cas, certaines fonctionnalités et caractéristiques des Sites pourraient ne pas fonctionner correctement et Vous pourriez ne pas être en mesure de pouvoir accéder à certain(e)s parties ou services des Sites.
-
-    Si vous souhaitez modifier ou supprimer vos informations, vous pouvez adresser votre demande à dpo@open-groupe.com
-
-    Conditions de traitement et de stockage des données personnelles
-    Le « traitement » des Données Personnelles inclut notamment l’utilisation, la conservation, l’enregistrement, le transfert, l’adaptation, l’analyse, la modification, la déclaration, le partage et la destruction des Données Personnelles en fonction de ce qui est nécessaire au regard des circonstances ou des exigences légales.
-
-    Toutes les Données Personnelles collectées sont conservées pour une durée limitée en fonction de la finalité du traitement et uniquement pour la durée prévue par la législation applicable.
-
-    Liens vers des sites web non controlés par Open
-    Les Sites peuvent proposer des liens vers des sites Internet de tiers susceptibles de Vous intéresser.
-
-    Open n'exerce aucun contrôle sur le contenu de sites de tiers ou sur les pratiques de ces tiers en matière de protection des Données Personnelles qu'ils pourraient recueillir. En conséquence, Open décline toute responsabilité concernant le traitement par ces tiers de Vos Données Personnelles. Il est de votre responsabilité de Vous renseigner sur les politiques de protection des données personnelles de ces tiers.
-
-    Transfert de données personnelles
-    En cas d’accès aux Sites depuis un pays non membre de l’Union européenne dont la législation relative à la collecte, à l’utilisation et au transfert de données diffère de celles de l’Union européenne, nous attirons votre attention sur le fait qu’en continuant d’utiliser les Sites, qui sont régis par le droit français, les Conditions d’utilisation correspondantes et la présente Politique, Vous transférez Vos Données Personnelles vers l’Union européenne et consentez à ce transfert.
-
-    Vos Données Personnelles peuvent être divulguées au sein d’Open aux fins énoncées à l’Article 4 de la présente Politique.
-
-    Open peut transférer Vos Données Personnelles en dehors de l’Union européenne, à condition de s’assurer, avant de les transférer, que les entités extérieures à l’Union européenne, offrent un niveau de protection adéquat, conformément à la législation européenne en vigueur.
-
-    Si Open apprenait qu’un tiers auquel Open a communiqué des Données Personnelles aux fins énoncées à l’Article 4 ci-dessus, utilise ou divulgue des Données Personnelles sans respecter la présente Politique ou en violation de la législation applicable, Open prendrait toute mesure raisonnable pour prévenir ou mettre fin à une telle utilisation ou divulgation.
-
-    Vous disposez également du droit d’autoriser ou non Open à utiliser Vos Données Personnelles pour une finalité autre que celles pour lesquelles ces Données Personnelles ont initialement été collectées. Vous pouvez vous opposer à cet usage en vous adressant à l’adresse suivante : dpo@open-groupe.com
-
-    Open peut également être amené à transférer Vos Données Personnelles à des tiers si Open estime qu’un tel transfert est nécessaire pour des raisons techniques (par exemple, pour des services d’hébergement par un tiers) ou pour protéger ses intérêts légaux (par exemple, en cas de vente d’actifs à une société tiers, de changement de contrôle ou de liquidation totale ou partielle d’Open).
-
-    En outre, Open peut partager Vos Données Personnelles au revendeur dont Vous dépendez ou affecté au territoire dans lequel Vous vous trouvez pour les besoins de l’activité d’Open. Open peut également partager vos Données Personnelles avec des partenaires commerciaux lorsqu’Open et le partenaire commercial sponsorisent conjointement un évènement ou participent ensemble à une promotion marketing dans laquelle Vous vous engagez.
-
-    Open peut communiquer Vos Données Personnelles si la loi l’y oblige ou si Open estime de toute bonne foi qu’une telle divulgation est raisonnablement nécessaire pour se conformer à une procédure légale (par exemple, un mandat, une citation à comparaître ou toute autre décision de justice) ou pour protéger les droits, les biens ou la sécurité personnelle de Groupe Open, de nos clients ou du public.
-
-    Si la législation applicable le permet, Open peut également partager Vos Données Personnelles avec des tiers afin de Vous proposer des offres marketing ou publicitaires ciblées.
-
-    Ces transferts pourront avoir lieu par Internet ou par toute autre méthode jugée opportune par Open conformément à la législation applicable et aux politiques internes de sécurité de Groupe Open.
-
-    Vos droits
-    Votre droit d’accès et à la rectification de vos données
-
-    Vous disposez du droit d’accéder et de faire rectifier vos données personnelles.
-    Vous pouvez nous demander que vos données personnelles soient, selon les cas, rectifiées, complétées si elles sont inexactes, incomplètes, équivoques, périmées.
-    Votre droit à l’effacement de vos données
-    Vous pouvez nous demander l’effacement de vos données personnelles lorsque l’un des motifs suivants s’applique :
-
-    les données personnelles ne sont plus nécessaires au regard des finalités pour lesquelles elles ont été collectées ou traitées d’une autre manière ;
-    vous retirez le consentement préalablement donné ;
-    vous vous opposez au traitement de vos données personnelles pour motif légitime ;
-    le traitement de données personnelles n’est pas conforme aux dispositions de la législation et de la réglementation applicable.
-    Néanmoins, l’exercice de ce droit ne sera pas possible lorsque la conservation de vos données personnelles est nécessaire au regard de la législation ou de la réglementation et notamment par exemple pour la constatation, l’exercice ou la défense de droits en justice.
-
-    Votre droit à la limitation des traitements de données
-
-    Vous pouvez demander la limitation du traitement de vos données personnelles dans les cas prévus par la législation et la réglementation.
-    Votre droit de vous opposer aux traitements de données
-    Vous avez le droit de vous opposer à un traitement de données personnelles vous concernant lorsque le traitement est fondé sur l’intérêt légitime du responsable du traitement.
-
-
-    Votre droit à la portabilité de vos données
-    Depuis le 25 mai 2018, vous disposerez du droit à la portabilité de vos données personnelles.
-    Les données sur lesquelles peut s’exercer ce droit sont :
-
-    uniquement vos données personnelles, ce qui exclut les données personnelles anonymisées ou les données qui ne vous concernent pas ;
-    les données personnelles déclaratives ainsi que les données personnelles de fonctionnement évoquées précédemment ;
-    les données personnelles qui ne portent pas atteinte aux droits et libertés de tiers telles que celles protégées par le secret des affaires.
-    Ce droit est limité aux traitements basés sur le consentement ou sur un contrat ainsi qu’aux données personnelles que vous avez personnellement générées.
-
-    Ce droit n’inclut ni les données dérivées ni les données inférées, qui sont des données personnelles créées par Open.
-    Votre droit de retirer votre consentement.
-
-    Lorsque les traitements de données que nous mettons en œuvre sont fondés sur votre consentement, vous pouvez le retirer à n’importe quel moment. Nous cessons alors de traiter vos données à caractère personnel sans que les opérations antérieures pour lesquelles vous aviez consenti ne soient remises en cause.
-
-    Votre droit d’introduire un recours
-
-    Vous avez le droit d’introduire une réclamation auprès de la Cnil sur le territoire français et ce sans préjudice de tout autre recours administratif ou juridictionnel.
-    Votre droit de définir des directives post-mortem
-    Vous avez la possibilité de définir des directives relatives à la conservation, à l’effacement et à la communication de vos données personnelles après votre décès et ce auprès d’un tiers de confiance, certifié et chargé de faire respecter la volonté du défunt conformément aux exigences du cadre juridique applicable.
-
-
-    Les modalités d’exercice de vos droits
-    Tous les droits énumérés ci-avant peuvent être exercés à l’adresse e-mail suivante dpo@open-groupe.com ou par courrier accompagné d’une copie d’un document d’identité en s’adressant au DPO d’Open à l’adresse suivante 28 rue Jacques Ibert 92 Levallois-Perret.
-
-    Si vous disposez d’un compte, vous pouvez exercer Vos droits d’accès et de rectification en vous connectant à votre compte.
-    Néanmoins, en ce qui concerne l’exercice du droit à l’information, nous pouvons ne pas avoir l’obligation d’y donner suite si :
-    vous disposez déjà de cette information ;
-
-    l’enregistrement ou la communication de vos données personnelles sont expressément prévus par la loi ;
-    la communication d’informations se révèle impossible ;
-    la communication d’informations exigerait des efforts disproportionnés.
-    Sécurite et destinataires des données
-    Open veille à protéger et sécuriser les Données Personnelles que Vous avez choisi de lui communiquer, afin d’assurer leur confidentialité et empêcher qu’elles ne soient déformées, endommagées, détruites ou divulguées à des tiers non autorisés.
-
-    Open a pris des mesures de protection physiques, électroniques et organisationnelles pour prévenir toute perte, mauvaise utilisation, accès ou diffusion non autorisé, altération ou destruction éventuelle de ces Données Personnelles. Parmi ces mesures de protection, Open intègre des technologies spécialement conçues pour protéger les Données Personnelles durant leur transfert. Toutefois, malgré les efforts d’Open pour protéger Vos Données Personnelles, Open ne peut pas garantir l’infaillibilité de cette protection en raison de risques inévitables pouvant survenir lors de la transmission de Données Personnelles.
-
-    Toutes les Données Personnelles étant confidentielles, leur accès est limité aux collaborateurs et prestataires  Open qui en ont besoin dans le cadre de l’exécution de leur mission. Toutes les personnes ayant accès à Vos Données Personnelles sont tenues par une obligation de confidentialité et s’exposent à des mesures disciplinaires et/ou autres sanctions si elles ne respectent pas ces obligations.
-
-    Toutefois, il importe que Vous fassiez preuve de prudence pour empêcher tout accès non autorisé à Vos Données Personnelles. Vous êtes responsable de la confidentialité de Votre mot de passe et des informations figurant dans Votre compte. Par conséquent, Vous devez Vous assurer de fermer Votre session en cas d’utilisation partagée d’un même ordinateur.
-
-    Résolution des conflits
-    Bien qu’Open ait pris des mesures raisonnables pour protéger les Données Personnelles, aucune technologie de transmission ou de stockage n’est totalement infaillible.
-
-    Toutefois, Open est soucieuse de garantir la protection des Données Personnelles. Si Vous avez des raisons de penser que la sécurité de Vos Données Personnelles a été compromise ou qu’elles ont fait l’objet d’une utilisation abusive, Vous êtes invité à contacter Open à l’adresse suivante : dpo@open-groupe.com
-
-    Open instruira les réclamations concernant l’utilisation et la divulgation de Données Personnelles et tentera de les résoudre conformément aux principes figurant dans la présente Politique.
-
-    L’accès non autorisé à des Données Personnelles ou leur mauvaise utilisation peut constituer une infraction aux termes de la législation locale.
-
-    Contact
-    Pour toute question concernant la présente Politique, pour ne plus recevoir d’informations de la part d’Open ou pour toute demande de rectification, complément, mise à jour ou suppression de Vos Données Personnelles, Vous pouvez envoyer un courrier électronique à l’adresse électronique suivante : dpo@open-groupe.com
-
-    Date d’entrée en vigueur et révisions de la politique de protection des données personnelles
-    La présente Politique peut être mise à jour en fonction des besoins d’Open et des circonstances ou si la loi l’exige. Nous vous invitons par conséquent à prendre régulièrement connaissance des mises à jour.</div>
+<!-- FOOTER -->
+<div class="footer row align-items-center d-block py-5">
+    <a href="../ProjetFastLab/homepage.html"><img  style="position: relative;" class="ml-5 w-auto" src='../img/FastLab.png'/></a>
+    <a span target="_BLANK" class="footer_link fab fa-twitter ml-5" href="https://twitter.com/FastLab_byOpen" style="position: relative;"></a>
+    <a span target="_BLANK" class="footer_link ml-3 fab fa-linkedin-in" href="https://www.linkedin.com/showcase/fastlab-byopen/" style="position: relative;"></a>
+    <a span target="_BLANK" class="footer_link ml-3 fab fa-youtube" href="https://www.youtube.com/channel/UC5olDdGhJtS0koR4foBNf4A" style="position: relative;"></a>
+    <a span target="_BLANK" class="footer_link offset-sm-2" href="https://www.open.global/fr">OPEN GROUPE</a> |
+    <a span class="footer_link" href="../ProjetFastLab/PPDP.html">POLITIQUE DE PROTECTION DES DONNEES PERSONNELLES</a> |
+    <a span class="footer_link" href="../ProjetFastLab/Mentions%20légales.html">MENTIONS LEGALES ET CREDITS</a> |
+    <a span class="footer_link" data-toggle="modal" data-target="#ModalContact">CONTACT</a>
+    <i class="ml-3 far fa-arrow-alt-circle-up fa-7x button-go-top__icon up_arrow fixed-bottom" onclick="topFunction()"> </i>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="../ProjetFastLab/js/js.js"></script>
 </body>
 </html>

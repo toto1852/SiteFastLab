@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .actu {
     background: #A42B78;
 }
@@ -49,3 +53,11 @@
 .footer_link{
     color: white;
 }
+
+.up_arrow{
+    color: lightgrey;
+    left: 90%;
+    bottom: 5%;
+
+}
+

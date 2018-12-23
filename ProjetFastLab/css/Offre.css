@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .btn-soumettre{
     background-color: #4387AC;
 }
@@ -15,6 +19,17 @@
     background-color: #F7F7F7;
 }
 
+.text{
+    font-family: "Muli";
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .footer_link{
     color: white;
 }
@@ -24,6 +39,42 @@
     color:white;
 }
 
-.text{
-    font-family: "Muli";
+.up_arrow{
+    color: lightgrey;
+    left: 90%;
+    bottom: 5%;
+
+}
+
+.double-pannel{
+    display: inline-block;
+    background: #44a4d8;
+    min-height: 600px;
+    color:white;
+}
+
+.double-pannel-2{
+    display: inline-block;
+    min-height: 600px;
+    background: #A42B78;
+    color:white;
+}
+
+ul {
+    list-style: none;
+}
+
+.pannel::before {
+    content: "\25AA";
+    font-size: 24px;
+    padding: 10px 0px;
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.pannel {
+    padding: 7px 0px;
 }

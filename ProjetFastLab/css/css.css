@@ -50,14 +50,19 @@ body {
     color: #4387AC;
 }
 
+.footer{
+    background-color:grey;
+    color:white;
+    padding-left: 16px;
+}
+
 .footer_link{
     color: white;
 }
 
 .up_arrow{
     color: lightgrey;
-    left: 90%;
+    left: 95%;
     bottom: 5%;
-
 }
 

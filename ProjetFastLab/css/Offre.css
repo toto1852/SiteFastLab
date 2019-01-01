@@ -41,7 +41,7 @@ body {
 
 .up_arrow{
     color: lightgrey;
-    left: 90%;
+    left: 95%;
     bottom: 5%;
 
 }
@@ -49,13 +49,13 @@ body {
 .double-pannel{
     display: inline-block;
     background: #44a4d8;
-    min-height: 600px;
+    min-height: 400px;
     color:white;
 }
 
 .double-pannel-2{
     display: inline-block;
-    min-height: 600px;
+    min-height: 400px;
     background: #A42B78;
     color:white;
 }

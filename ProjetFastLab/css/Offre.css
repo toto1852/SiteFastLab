@@ -43,7 +43,6 @@ body {
     color: lightgrey;
     left: 95%;
     bottom: 5%;
-
 }
 
 .double-pannel{
@@ -77,4 +76,8 @@ ul {
 
 .pannel {
     padding: 7px 0px;
+}
+
+.photo{
+    display: inline-block;
 }

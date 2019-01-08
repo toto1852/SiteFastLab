@@ -42,86 +42,119 @@
     color: #4387AC;
 }
 
-#to-show {
-    display: none;
+.to-show {
+    opacity: 0;
+    transition: opacity 0.5s;
 }
-#to-hover:hover > #to-show {
-    display: block;
+
+#imaginehover:hover > .imagine {
+    filter: brightness(120%);
+    transition: 1s;
+}
+
+#imaginehover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#shapehover:hover > .shape {
+     filter:brightness(120%);
+    transition: 1s;
+ }
+
+#shapehover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#getreadyhover:hover > .getready {
+    filter:brightness(120%);
+    transition: 1s;
+}
+
+#getreadyhover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#makehover:hover > .make {
+    filter:brightness(120%);
+    transition: 1s;
+}
+
+#makehover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#propulsehover:hover > .propulse {
+    filter:brightness(120%);
+    transition: 1s;
+}
+
+#propulsehover:hover > .to-show {
+    opacity: 100;
 }
 
 .imagine {
     position: relative;
-    left: 0px;
-    top: -341px;
     z-index: -1;
-    display: none;
+    filter:brightness(90%);
+    transition: 1s;
 }
 
 
 .shape {
     position: relative;
-    left: -70px;
-    top: -341px;
     z-index: -2;
-    display: none;
+    filter:brightness(90%);
+    transition: 1s;
 }
 
 .getready {
     position: relative;
-    left: -140px;
-    top: -341px;
     z-index: -3;
-    display: none;
+    filter:brightness(90%);
+    transition: 1s;
 }
 
 .make {
     position: relative;
-    left: -210px;
-    top: -341px;
     z-index: -4;
-    display: none;
+    filter:brightness(90%);
+    transition: 1s;
 }
 
 .propulse {
     position: relative;
-    left: -280px;
-    top: -341px;
     z-index: -5;
-    display: none;
+    filter:brightness(90%);
+    transition: 1s;
 }
 
-.imaginebg {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: -6;
+* {
+    box-sizing: border-box;
 }
 
-
-.shapebg {
-    position: relative;
-    left: -70px;
-    top: 0px;
-    z-index: -7;
+.first {
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 5%;
+    width: 20%;
 }
 
-.getreadybg {
-    position: relative;
-    left: -140px;
-    top: 0px;
-    z-index: -8;
+.column {
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: -3%;
+    width: 20%;
 }
 
-.makebg {
-    position: relative;
-    left: -210px;
-    top: 0px;
-    z-index: -9;
-}
-
-.propulsebg {
-    position: relative;
-    left: -280px;
-    top: 0px;
-    z-index: -10;
+/* Clearfix (clear floats) */
+.Methodo::after {
+    content: "";
+    clear: both;
+    display: table;
 }

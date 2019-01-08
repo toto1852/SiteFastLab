@@ -10,12 +10,16 @@
     <link rel="icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="../ProjetFastLab/css/css.css">
     <link rel='stylesheet' type="text/css" href="../css/video.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.cs">
     <link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
           integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -102,182 +106,219 @@
     </div>
 </div>
 
-<!---VIDEO PROMO--->
-<div class="video-prom row">
-    <div class="offset-sm-3 col-sm-6">
-        <p class="prom">Accélérons ensemble votre <br>transformation digitale</p>
-        <div class="video embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"
-                    src="https://www.youtube.com/embed/Y3AzUucRmaE?start=1&mute=1&autoplay=1" allowfullscreen></iframe>
-        </div>
-        <p style="font-size: 22px"><br>Découvrez le fastLab® en deux minutes de vidéo</p>
-    </div>
+<div class="wrapper">
+    <nav class="nav__wrapper" id="navbar-example">
+        <ul class="nav flex-column">
+            <li class="nav-item active" role="presentation">
+                <a class="video-sec" href="#video">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Le FastLab® en vidéo</span>
+                </a>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <a href="#methodologie">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Notre méthodologie</span>
+                </a>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <a href="#actu">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Nos actualités</span>
+                </a>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <a class="social-sec" href="#social">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Social Wall</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </div>
 
-
-<br/>
-<div class="Methodo">
-    <div id="imaginehover" class="first">
-        <img src="img/imagine.png" class="imagine" style="width:100%"/>
-        <div class="to-show">
-            <p><br/><b>IMAGINE :</b></p>
-            Faisons émerger les idées innovantes à forte valeur ajoutée en réponse à vos enjeux afin d'en dégager des cas d'usage.
-            <br/><br/>
-        </div>
-    </div>
-    <div id="shapehover" class="column">
-        <img src="img/shape.png" class="shape" style="width:100%"/>
-        <div class="to-show">
-            <p><br/><b>SHAPE :</b></p>
-            Transformons les idées exprimées en phase IMAGINE en un prototype non fonctionnel.
-            <br/><br/>
-        </div>
-    </div>
-    <div id="getreadyhover" class="column">
-        <img src="img/get-ready.png" class="getready" style="width:100%"/>
-        <div class="to-show">
-            <p><br/><b>GET READY :</b></p>
-            Levons les freins organisationnels, sécuritaires et juridiques avant de lancer votre projet.
-            <br/><br/>
-        </div>
-    </div>
-    <div id="makehover" class="column">
-        <img src="img/make.png" class="make" style="width:100%"/>
-        <div class="to-show">
-            <p><br/><b>MAKE :</b></p>
-            Développons votre MVP prêt à être industrialisé, au rythme de 6 semaines de sprints.
-            <br/><br/>
-        </div>
-    </div>
-    <div id="propulsehover" class="column">
-        <img src="img/propulse.png" class="propulse" style="width:100%"/>
-        <div class="to-show">
-            <p><br/><b>PROPULSE :</b></p>
-            Préparons la mise en production afin de simplifier l'industrialisation.
-            <br/><br/>
-        </div>
-    </div>
-</div>
-
-
-<div class="actu">
-    <!--Eliane Carrousel News -->
-    <div class="offset-sm-4 col-sm-4">
-    <div class="row align-items-center">
-    <hr width="10%" color="white" size="5"><h1 class="actualites text-center pt-5 pb-5">Nos actualités</h1><hr width="10%" color="white">
-    </div></div>
-    <div class="carousel slide" data-type="multi" data-ride="carousel" id="carouselExampleControls">
-        <div class="container-fluid row offset-sm-1 col-sm-10 carousel-inner pb-5">
-            <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-sm-3 actu-card">
-                        <img src="../ProjetFastLab/img/desert.jpg" width="100%" height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                    <div class="col-sm-3 actu-card">
-                        <img src="../ProjetFastLab/img/brooke-cagle-1181681-unsplash.jpg" width="100%" height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                    <div class="col-sm-3 actu-card">
-                        <img src="../ProjetFastLab/img/courtney-kenady-1200638-unsplash.jpg" width="100%"
-                             height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                    <div class="col-sm-3 actu-card ">
-                        <img src="../ProjetFastLab/img/etienne-desclides-119070-unsplash.jpg" width="100%"
-                             height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                </div>
+<section class="section section1" id="video">
+    <div class="video-prom row">
+        <div class="offset-sm-3 col-sm-6">
+            <h2 class="prom h2">Accélérons ensemble votre <br>transformation digitale</h2>
+            <div class="video embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/Y3AzUucRmaE?start=1&mute=1&autoplay=1" allowfullscreen></iframe>
             </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-sm-3 actu-card">
-                        <img src="../ProjetFastLab/img/jeff-golenski-1208707-unsplash.jpg" width="100%" height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                    <div class="col-sm-3 actu-card">
-                        <img src="../ProjetFastLab/img/jenny-caywood-1216631-unsplash.jpg" width="100%" height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                    <div class="col-sm-3 actu-card">
-                        <img src="../ProjetFastLab/img/oleg-ivanov-1158318-unsplash.jpg" width="100%" height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                    <div class="col-sm-3 actu-card">
-                        <img src="../ProjetFastLab/img/julian-christian-anderson-1177638-unsplash.jpg" width="100%"
-                             height="auto"/>
-                        <h5>Le FastLab et Open</h5>
-                        <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
-                            ad,
-                            quo id
-                            facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
-                            officiis
-                            temporibus id ius...</p>
-                        <a class="btn border rounded-0">LIRE</a>
-                    </div>
-                </div>
+            <h5 ><br>Découvrez le fastLab® en deux minutes de vidéo</h5>
+        </div>
+    </div>
+</section>
+
+
+<section class="section section2" id="methodologie">
+    <div class="Methodo">
+        <br/>
+        <div id="imaginehover" class="first">
+            <img src="img/imagine.png" class="imagine" style="width:100%"/>
+            <div class="to-show">
+                <p><br/><b>IMAGINE :</b></p>
+                Faisons émerger les idées innovantes à forte valeur ajoutée en réponse à vos enjeux afin d'en dégager des cas d'usage.
+                <br/><br/>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div id="shapehover" class="column">
+            <img src="img/shape.png" class="shape" style="width:100%"/>
+            <div class="to-show">
+                <p><br/><b>SHAPE :</b></p>
+                Transformons les idées exprimées en phase IMAGINE en un prototype non fonctionnel.
+                <br/><br/>
+            </div>
+        </div>
+        <div id="getreadyhover" class="column">
+            <img src="img/get-ready.png" class="getready" style="width:100%"/>
+            <div class="to-show">
+                <p><br/><b>GET READY :</b></p>
+                Levons les freins organisationnels, sécuritaires et juridiques avant de lancer votre projet.
+                <br/><br/>
+            </div>
+        </div>
+        <div id="makehover" class="column">
+            <img src="img/make.png" class="make" style="width:100%"/>
+            <div class="to-show">
+                <p><br/><b>MAKE :</b></p>
+                Développons votre MVP prêt à être industrialisé, au rythme de 6 semaines de sprints.
+                <br/><br/>
+            </div>
+        </div>
+        <div id="propulsehover" class="column">
+            <img src="img/propulse.png" class="propulse" style="width:100%"/>
+            <div class="to-show">
+                <p><br/><b>PROPULSE :</b></p>
+                Préparons la mise en production afin de simplifier l'industrialisation.
+                <br/><br/>
+            </div>
+        </div>
     </div>
-</div>
+</section>
+
+<section class="section section3" id="actu">
+    <div class="actu">
+        <!--Eliane Carrousel News -->
+        <div class="offset-sm-4 col-sm-4">
+        <div class="row align-items-center">
+        <hr width="10%" color="white" size="5"><h1 class="actualites text-center pt-5 pb-5">Nos actualités</h1><hr width="10%" color="white">
+        </div></div>
+        <div class="carousel slide" data-type="multi" data-ride="carousel" id="carouselExampleControls">
+            <div class="container-fluid row offset-sm-1 col-sm-10 carousel-inner pb-5">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm-3 actu-card">
+                            <img src="../ProjetFastLab/img/desert.jpg" width="100%" height="auto"/>
+                            <h5>Le FastLab et Open</h5>
+                            <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                ad,
+                                quo id
+                                facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                officiis
+                                temporibus id ius...</p>
+                            <a class="btn border rounded-0">LIRE</a>
+                        </div>
+                        <div class="col-sm-3 actu-card">
+                            <img src="../ProjetFastLab/img/brooke-cagle-1181681-unsplash.jpg" width="100%" height="auto"/>
+                            <h5>Le FastLab et Open</h5>
+                            <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                ad,
+                                quo id
+                                facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                officiis
+                                temporibus id ius...</p>
+                            <a class="btn border rounded-0">LIRE</a>
+                        </div>
+                        <div class="col-sm-3 actu-card">
+                            <img src="../ProjetFastLab/img/courtney-kenady-1200638-unsplash.jpg" width="100%"
+                                 height="auto"/>
+                            <h5>Le FastLab et Open</h5>
+                            <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                ad,
+                                quo id
+                                facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                officiis
+                                temporibus id ius...</p>
+                            <a class="btn border rounded-0">LIRE</a>
+                        </div>
+                        <div class="col-sm-3 actu-card ">
+                            <img src="../ProjetFastLab/img/etienne-desclides-119070-unsplash.jpg" width="100%"
+                                 height="auto"/>
+                            <h5>Le FastLab et Open</h5>
+                            <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                ad,
+                                quo id
+                                facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                officiis
+                                temporibus id ius...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-3 actu-card">
+                                <img src="../ProjetFastLab/img/jeff-golenski-1208707-unsplash.jpg" width="100%" height="auto"/>
+                                <h5>Le FastLab et Open</h5>
+                                <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                    ad,
+                                    quo id
+                                    facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                    officiis
+                                    temporibus id ius...</p>
+                                <a class="btn border rounded-0">LIRE</a>
+                            </div>
+                            <div class="col-sm-3 actu-card">
+                                <img src="../ProjetFastLab/img/jenny-caywood-1216631-unsplash.jpg" width="100%" height="auto"/>
+                                <h5>Le FastLab et Open</h5>
+                                <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                    ad,
+                                    quo id
+                                    facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                    officiis
+                                    temporibus id ius...</p>
+                                <a class="btn border rounded-0">LIRE</a>
+                            </div>
+                            <div class="col-sm-3 actu-card">
+                                <img src="../ProjetFastLab/img/oleg-ivanov-1158318-unsplash.jpg" width="100%" height="auto"/>
+                                <h5>Le FastLab et Open</h5>
+                                <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                    ad,
+                                    quo id
+                                    facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                    officiis
+                                    temporibus id ius...</p>
+                                <a class="btn border rounded-0">LIRE</a>
+                            </div>
+                            <div class="col-sm-3 actu-card">
+                                <img src="../ProjetFastLab/img/julian-christian-anderson-1177638-unsplash.jpg" width="100%"
+                                     height="auto"/>
+                                <h5>Le FastLab et Open</h5>
+                                <p>Lorem ipsum dolor sit amet, ad sit tale principes, per deserunt elaboraret vituperatoribus
+                                    ad,
+                                    quo id
+                                    facer commodo. Ne vix omnis integre salutandi, tempor feugiat salutandi nec an, elit
+                                    officiis
+                                    temporibus id ius...</p>
+                                <a class="btn border rounded-0">LIRE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div class="Social-wall row mt-5">
     <div class="offset-sm-4 col-sm-4">
@@ -313,5 +354,51 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <script src="../ProjetFastLab/js/js.js"></script>
+<script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("navbar-example");
+    var links = header.getElementsByClassName("nav-item");
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", function() {
+            var co = document.getElementsByClassName("active");
+            co[0].className = co[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+
+<script>
+    window.onscroll = function() {scrolling()};
+
+    function scrolling() {
+        var header = document.getElementById("navbar-example");
+        var links = header.getElementsByClassName("nav-item");
+
+        if ((document.body.scrollTop < 300 || document.documentElement.scrollTop < 300))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[0].className="nav-item active";
+        }
+        if ((document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) && (document.body.scrollTop < 800 || document.documentElement.scrollTop < 800))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[1].className="nav-item active";
+        }
+        if ((document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) && (document.body.scrollTop < 1500 || document.documentElement.scrollTop < 1500))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[2].className="nav-item active";
+        }
+        if ((document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[3].className="nav-item active";
+        }
+    }
+</script>
 </body>
 </html>

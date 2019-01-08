@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .actu {
     background: #A42B78;
 }
@@ -19,11 +23,15 @@
     color: #2575aa;
 }
 
-.methodo{
-    text-align: center;
+.hr{
+    display:inline;
+}
+
+.Methodo{
+    text-align: left;
     background-color: #f3f3f3;
     font-family: "Muli","Arial",sans-serif;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .actu-card{
@@ -98,7 +106,7 @@
 
 .imagine {
     position: relative;
-    z-index: -1;
+    z-index: 5;
     filter:brightness(90%);
     transition: 1s;
 }
@@ -106,28 +114,28 @@
 
 .shape {
     position: relative;
-    z-index: -2;
+    z-index: 4;
     filter:brightness(90%);
     transition: 1s;
 }
 
 .getready {
     position: relative;
-    z-index: -3;
+    z-index: 3;
     filter:brightness(90%);
     transition: 1s;
 }
 
 .make {
     position: relative;
-    z-index: -4;
+    z-index: 2;
     filter:brightness(90%);
     transition: 1s;
 }
 
 .propulse {
     position: relative;
-    z-index: -5;
+    z-index: 1;
     filter:brightness(90%);
     transition: 1s;
 }
@@ -140,7 +148,7 @@
     float: left;
     max-height: 100%;
     max-width: 100%;
-    margin-left: 5%;
+    margin-left: 10%;
     width: 20%;
 }
 
@@ -152,9 +160,24 @@
     width: 20%;
 }
 
-/* Clearfix (clear floats) */
 .Methodo::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.footer{
+    background-color:grey;
+    color:white;
+    padding-left: 16px;
+}
+
+.footer_link{
+    color: white;
+}
+
+.up_arrow{
+    color: lightgrey;
+    left: 95%;
+    bottom: 5%;
 }

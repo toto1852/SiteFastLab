@@ -41,3 +41,120 @@
 .contacteznous{
     color: #4387AC;
 }
+
+.to-show {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#imaginehover:hover > .imagine {
+    filter: brightness(120%);
+    transition: 1s;
+}
+
+#imaginehover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#shapehover:hover > .shape {
+     filter:brightness(120%);
+    transition: 1s;
+ }
+
+#shapehover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#getreadyhover:hover > .getready {
+    filter:brightness(120%);
+    transition: 1s;
+}
+
+#getreadyhover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#makehover:hover > .make {
+    filter:brightness(120%);
+    transition: 1s;
+}
+
+#makehover:hover > .to-show {
+    opacity: 100;
+    transition: opacity 1s;
+}
+
+#propulsehover:hover > .propulse {
+    filter:brightness(120%);
+    transition: 1s;
+}
+
+#propulsehover:hover > .to-show {
+    opacity: 100;
+}
+
+.imagine {
+    position: relative;
+    z-index: -1;
+    filter:brightness(90%);
+    transition: 1s;
+}
+
+
+.shape {
+    position: relative;
+    z-index: -2;
+    filter:brightness(90%);
+    transition: 1s;
+}
+
+.getready {
+    position: relative;
+    z-index: -3;
+    filter:brightness(90%);
+    transition: 1s;
+}
+
+.make {
+    position: relative;
+    z-index: -4;
+    filter:brightness(90%);
+    transition: 1s;
+}
+
+.propulse {
+    position: relative;
+    z-index: -5;
+    filter:brightness(90%);
+    transition: 1s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.first {
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.column {
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: -3%;
+    width: 20%;
+}
+
+/* Clearfix (clear floats) */
+.Methodo::after {
+    content: "";
+    clear: both;
+    display: table;
+}

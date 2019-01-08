@@ -15,6 +15,8 @@
           integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/timeline.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target="#navbar-example">
 
@@ -105,45 +107,47 @@
 
 <div class="wrapper">
     <nav class="nav__wrapper" id="navbar-example">
-        <div class="item" role="presentation">
-            <a href="#video">
-                <i class="nav__counter fas fa-circle"></i>
-                <span class="nav__title">Le FastLab® en vidéo</span>
-            </a>
-        </div>
+        <ul class="nav flex-column">
+            <li class="nav-item active" role="presentation">
+                <a class="video-sec" href="#video">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Le FastLab® en vidéo</span>
+                </a>
+            </li>
 
-        <div class="item" role="presentation">
-            <a href="#methodologie">
-                <i class="nav__counter fas fa-circle"></i>
-                <span class="nav__title">Notre méthodologie</span>
-            </a>
-        </div>
+            <li class="nav-item" role="presentation">
+                <a href="#methodologie">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Notre méthodologie</span>
+                </a>
+            </li>
 
-        <div class="item" role="presentation">
-            <a href="#actu">
-                <i class="nav__counter fas fa-circle"></i>
-                <span class="nav__title">Nos actualités</span>
-            </a>
-        </div>
+            <li class="nav-item" role="presentation">
+                <a href="#actu">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Nos actualités</span>
+                </a>
+            </li>
 
-        <div class="item" role="presentation">
-            <a href="#social">
-                <i class="nav__counter fas fa-circle"></i>
-                <span class="nav__title">Social Wall</span>
-            </a>
-        </div>
+            <li class="nav-item" role="presentation">
+                <a class="social-sec" href="#social">
+                    <i class="item-point material-icons">fiber_manual_record</i>
+                    <span class="item-title">Social Wall</span>
+                </a>
+            </li>
+        </ul>
     </nav>
 </div>
 
 <section class="section section1" id="video">
     <div class="video-prom row">
         <div class="offset-sm-3 col-sm-6">
-            <p class="prom">Accélérons ensemble votre <br>transformation digitale</p>
+            <h2 class="prom h2">Accélérons ensemble votre <br>transformation digitale</h2>
             <div class="video embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item"
                         src="https://www.youtube.com/embed/Y3AzUucRmaE?start=1&mute=1&autoplay=1" allowfullscreen></iframe>
             </div>
-            <p style="font-size: 22px"><br>Découvrez le fastLab® en deux minutes de vidéo</p>
+            <h5 ><br>Découvrez le fastLab® en deux minutes de vidéo</h5>
         </div>
     </div>
 </section>
@@ -310,5 +314,51 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <script src="../ProjetFastLab/js/js.js"></script>
+<script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("navbar-example");
+    var links = header.getElementsByClassName("nav-item");
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", function() {
+            var co = document.getElementsByClassName("active");
+            co[0].className = co[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+
+<script>
+    window.onscroll = function() {scrolling()};
+
+    function scrolling() {
+        var header = document.getElementById("navbar-example");
+        var links = header.getElementsByClassName("nav-item");
+
+        if ((document.body.scrollTop < 300 || document.documentElement.scrollTop < 300))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[0].className="nav-item active";
+        }
+        if ((document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) && (document.body.scrollTop < 800 || document.documentElement.scrollTop < 800))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[1].className="nav-item active";
+        }
+        if ((document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) && (document.body.scrollTop < 1500 || document.documentElement.scrollTop < 1500))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[2].className="nav-item active";
+        }
+        if ((document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500))  {
+            for (var i = 0; i < links.length; i++) {
+                links[i].className="nav-item";
+            }
+            links[3].className="nav-item active";
+        }
+    }
+</script>
 </body>
 </html>

@@ -3,18 +3,7 @@
     font-weight: 300;
 }
 
-.wrapper:before {
-    content: '';
-    position: fixed;
-    width: 3px;
-    background-color: black;
-    top: 30%;
-    bottom: 30%;
-    left: 5%;
-    margin-left: -3px;
-}
-
-.nav__wrapper {
+.wrapper .nav__wrapper {
     position: fixed;
     height: 100%;
     top: 38%;
@@ -22,14 +11,78 @@
     z-index: 1;
 }
 
-.nav__counter {
-    font-size: 24px;
-    transition: all 0.15s ease-out;
-    color: black;
+.wrapper .nav__wrapper .nav .nav-item {
+    position: relative;
+    transition: all 0.3s ease-out;
+    margin-bottom: 1em;
+    list-style: none;
 }
 
-.nav__title {
-    font-size: 16px;
+.wrapper .nav__wrapper .nav .nav-item:hover [class^="item-title"]{
+    opacity: 1;
+    height: auto;
+    width: auto;
+}
+
+.wrapper .nav__wrapper .nav .nav-item.active [class^="item-point"]{
+    color:red;
+}
+
+.wrapper .nav__wrapper .nav .nav-item.active [class^="item-title"]{
+    opacity: 1;
+    height: auto;
+    width: auto;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a {
+    color: #fff;
+    transition: all 0.15s ease-out;
+    text-decoration: none;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a:hover {
+    background-color: transparent;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a:focus {
+    background-color: transparent;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point {
+    font-size: 28px;
+    transition: all 0.15s ease-out;
+    color: black;
+    z-index: 1;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point:before{
+    top:-19px;
+    left:14px;
+}
+
+.wrapper .nav__wrapper .nav .nav-item .video-sec .item-point:before{
+     border-image: linear-gradient(to top, black, transparent) 1 100%;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point:after{
+    top:23px;
+    left:14px;
+}
+
+.wrapper .nav__wrapper .nav .nav-item .social-sec .item-point:after{
+    border-image: linear-gradient(to bottom, black, transparent) 1 100%;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point:before, .wrapper .nav__wrapper .nav .nav-item a .item-point:after{
+    content: '';
+    display: inline-block;
+    height: 24px;
+    position: absolute;
+    border-left: 1px solid black;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-title {
+    font-size: 14px;
     font-weight: 300;
     margin: 0 0 0.25em;
     height: 0;
@@ -39,36 +92,11 @@
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
 }
 
-.item {
-    position: relative;
-    transition: all 0.3s ease-out;
-    margin-bottom: 1em;
-}
 
-.item a {
-    display: block;
-    padding: 0;
-    color: #fff;
-    transition: all 0.15s ease-out;
-    text-decoration: none;
-}
-.item a:hover {
-    background-color: transparent;
-    padding-left: 1em;
-}
-.item a:focus {
-    background-color: transparent;
-}
 
-.item:hover [class^="nav__title"]{
-    opacity: 1;
-    height: auto;
-    width: auto;
-}
 
-.section:active [class^="nav__title"]{
 
-}
+
 
 
 

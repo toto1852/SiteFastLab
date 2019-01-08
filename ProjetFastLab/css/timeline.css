@@ -1,0 +1,103 @@
+.wrapper {
+    font-family: 'Muli', serif;
+    font-weight: 300;
+}
+
+.wrapper .nav__wrapper {
+    position: fixed;
+    height: 100%;
+    top: 38%;
+    left: 5%;
+    z-index: 1;
+}
+
+.wrapper .nav__wrapper .nav .nav-item {
+    position: relative;
+    transition: all 0.3s ease-out;
+    margin-bottom: 1em;
+    list-style: none;
+}
+
+.wrapper .nav__wrapper .nav .nav-item:hover [class^="item-title"]{
+    opacity: 1;
+    height: auto;
+    width: auto;
+}
+
+.wrapper .nav__wrapper .nav .nav-item.active [class^="item-point"]{
+    color:red;
+}
+
+.wrapper .nav__wrapper .nav .nav-item.active [class^="item-title"]{
+    opacity: 1;
+    height: auto;
+    width: auto;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a {
+    color: #fff;
+    transition: all 0.15s ease-out;
+    text-decoration: none;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a:hover {
+    background-color: transparent;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a:focus {
+    background-color: transparent;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point {
+    font-size: 28px;
+    transition: all 0.15s ease-out;
+    color: black;
+    z-index: 1;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point:before{
+    top:-19px;
+    left:14px;
+}
+
+.wrapper .nav__wrapper .nav .nav-item .video-sec .item-point:before{
+     border-image: linear-gradient(to top, black, transparent) 1 100%;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point:after{
+    top:23px;
+    left:14px;
+}
+
+.wrapper .nav__wrapper .nav .nav-item .social-sec .item-point:after{
+    border-image: linear-gradient(to bottom, black, transparent) 1 100%;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-point:before, .wrapper .nav__wrapper .nav .nav-item a .item-point:after{
+    content: '';
+    display: inline-block;
+    height: 24px;
+    position: absolute;
+    border-left: 1px solid black;
+}
+
+.wrapper .nav__wrapper .nav .nav-item a .item-title {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 0.25em;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+

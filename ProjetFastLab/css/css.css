@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .actu {
     background: #A42B78;
 }
@@ -17,6 +21,10 @@
     font-family: "Muli","Arial",sans-serif;
     text-align: center;
     color: #2575aa;
+}
+
+.hr{
+    display:inline;
 }
 
 .methodo{
@@ -152,9 +160,24 @@
     width: 20%;
 }
 
-/* Clearfix (clear floats) */
 .Methodo::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.footer{
+    background-color:grey;
+    color:white;
+    padding-left: 16px;
+}
+
+.footer_link{
+    color: white;
+}
+
+.up_arrow{
+    color: lightgrey;
+    left: 95%;
+    bottom: 5%;
 }

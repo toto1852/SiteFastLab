@@ -50,17 +50,41 @@ body {
     color: #4387AC;
 }
 
-.to-show {
+.show {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 10%;
     opacity: 0;
     transition: opacity 0.5s;
+    font-size: 2vw;
 }
+
+#showimagine {
+}
+
+#showshape {
+    margin-top: -20%;
+}
+
+#showgetready {
+     margin-top: -20%;
+}
+#showmake {
+      margin-top: -20%;
+}
+
+#showpropulse {
+    margin-top: -20%;
+    height:22vw;
+}
+
 
 #imaginehover:hover > .imagine {
     filter: brightness(120%);
     transition: 1s;
 }
 
-#imaginehover:hover > .to-show {
+#imaginehover:hover ~ #showimagine {
     opacity: 100;
     transition: opacity 1s;
 }
@@ -70,7 +94,7 @@ body {
     transition: 1s;
  }
 
-#shapehover:hover > .to-show {
+#shapehover:hover ~ #showshape {
     opacity: 100;
     transition: opacity 1s;
 }
@@ -80,7 +104,7 @@ body {
     transition: 1s;
 }
 
-#getreadyhover:hover > .to-show {
+#getreadyhover:hover ~ #showgetready {
     opacity: 100;
     transition: opacity 1s;
 }
@@ -90,7 +114,7 @@ body {
     transition: 1s;
 }
 
-#makehover:hover > .to-show {
+#makehover:hover ~ #showmake {
     opacity: 100;
     transition: opacity 1s;
 }
@@ -100,7 +124,7 @@ body {
     transition: 1s;
 }
 
-#propulsehover:hover > .to-show {
+#propulsehover:hover ~ #showpropulse {
     opacity: 100;
 }
 

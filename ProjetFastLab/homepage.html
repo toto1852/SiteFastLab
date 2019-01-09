@@ -19,7 +19,8 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
-        <a href="../ProjetFastLab/homepage.html"><img src="../ProjetFastLab/img/logo_fastlab_byopen_0.png"  height="30" alt=""></a>
+        <a href="../ProjetFastLab/homepage.html"><img src="../ProjetFastLab/img/logo_fastlab_byopen_0.png" height="30"
+                                                      alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,7 +41,8 @@
                     <a target="_BLANK" class="nav-link menu" href="https://www.open.global/fr">OPEN</a>
                 </li>
                 <li class="nav-item">
-                    <button data-toggle="modal" data-target="#ModalContact"class="btn border menu">CONTACTEZ-NOUS</button>
+                    <button data-toggle="modal" data-target="#ModalContact" class="btn border menu">CONTACTEZ-NOUS
+                    </button>
                 </li>
             </ul>
         </div>
@@ -48,12 +50,15 @@
 </nav>
 
 <!-- CONTACT FORM -->
-<div class="modal fade" id="ModalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+<div class="modal modalFull" id="ModalContact" role="dialog">
+    <!--aria-labelledby="exampleModalLabel" aria-hidden="true" -->
+    <div class="modal-dialog" role="document">
         <div class="modal-content modalColor">
-            <div class="modal-header border-0 contacteznous">
-                <hr width="10%" color="#4387AC" size="5"><h5 class="text-center">Contactez-nous</h5><hr width="10%" color="#4387AC">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="modal-header contacteznous">
+                <hr width="5%" color="#4387AC" align="right">
+                <h5 class="text-center" style="padding-left: 1%; padding-right: 1%">Contactez-nous</h5>
+                <hr width="5%" color="#4387AC" align="left">
+                <button type="button" class="close" data-dismiss="modal" style="margin-left: 0">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -61,23 +66,32 @@
                 <form>
                     <div class="row">
                         <div class="col">
+                            <div class="unInput">
                             NOM
                             <input type="text" class="form-control rounded-0 border-0">
+                            </div>
+                            <div class="unInput">
                             FONCTION
                             <input type="text" class="form-control rounded-0 border-0">
+                            </div>
+                            <div class="unInput">
                             JE VOUDRAIS ETRE CONTACTE(E) AU SUJET DE*
                             <input type="text" class="form-control rounded-0 border-0">
+                            </div><div class="unInput">
                             POLITIQUE DE PROTECTION DES DONNEES PERSONNELLES*
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                       value="option2">
                                 <label class="form-check-label" for="gridRadios2">
                                     J'ai lu et j'accepte
                                 </label>
-                            </div>
+                            </div></div>
                         </div>
                         <div class="col">
+                            <div class="unInput">
                             PRENOM
-                            <input type="text" class="form-control rounded-0 border-0">
+                                <input type="text" class="form-control rounded-0 border-0"></div>
+                            <div class="unInput">
                             SERVICES
                             <select class="form-control rounded-0 border-0">
                                 <option selected>Sélectionner</option>
@@ -85,17 +99,19 @@
                                 <option>Informatique</option>
                                 <option>Informatique</option>
                                 <option>Informatique</option>
-                            </select>
+                            </select></div>
+                            <div class="unInput">
                             EMAIL*
-                            <input type="text" class="form-control rounded-0 border-0">
+                                <input type="text" class="form-control rounded-0 border-0"></div>
+                            <div class="unInput">
                             TELEPHONE
-                            <input type="text" class="form-control rounded-0 border-0">
+                                <input type="text" class="form-control rounded-0 border-0"></div>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="modal-footer border-0">
-                <button type="button" class="btn btn-primary rounded-0 btn-soumettre border-0">SOUMETTRE</button>
+                <button type="button unInput" class="btn btn-primary rounded-0 btn-soumettre border-0" style="margin-right: 5%">SOUMETTRE</button>
             </div>
         </div>
     </div>
@@ -120,7 +136,8 @@
         <img src="img/imagine.png" class="imagine" style="width:100%"/>
         <div class="to-show">
             <p><br/><b>IMAGINE :</b></p>
-            Faisons émerger les idées innovantes à forte valeur ajoutée en réponse à vos enjeux afin d'en dégager des cas d'usage.
+            Faisons émerger les idées innovantes à forte valeur ajoutée en réponse à vos enjeux afin d'en dégager des
+            cas d'usage.
             <br/><br/>
         </div>
     </div>
@@ -162,9 +179,12 @@
 <div class="actu">
     <!--Eliane Carrousel News -->
     <div class="offset-sm-4 col-sm-4">
-    <div class="row align-items-center">
-    <hr width="10%" color="white" size="5"><h1 class="actualites text-center pt-5 pb-5">Nos actualités</h1><hr width="10%" color="white">
-    </div></div>
+        <div class="row align-items-center">
+            <hr width="10%" color="white" size="5">
+            <h1 class="actualites text-center pt-5 pb-5">Nos actualités</h1>
+            <hr width="10%" color="white">
+        </div>
+    </div>
     <div class="carousel slide" data-type="multi" data-ride="carousel" id="carouselExampleControls">
         <div class="container-fluid row offset-sm-1 col-sm-10 carousel-inner pb-5">
             <div class="carousel-item active">
@@ -281,7 +301,9 @@
 <div class="Social-wall row mt-5">
     <div class="offset-sm-4 col-sm-4">
         <div class="row align-items-center mb-5">
-            <hr width="10%" size="5"><h1 class="Social-wall">SOCIAL WALL</h1><hr width="10%">
+            <hr width="10%" size="5">
+            <h1 class="Social-wall">SOCIAL WALL</h1>
+            <hr width="10%">
         </div>
         <a class="twitter-timeline" data-height="770"
            href="https://twitter.com/Fastlab_byOpen?ref_src=twsrc%5Etfw">Tweets by Fastlab_byOpen</a>
@@ -291,15 +313,20 @@
 
 <!-- FOOTER -->
 <div class="footer row align-items-center d-block py-5">
-    <a href="../ProjetFastLab/homepage.html"><img  style="position: relative;" class="col-sm-1 w-auto" src='../img/FastLab.png'/></a>
-    <a span target="_BLANK" class="footer_link fab fa-twitter" href="https://twitter.com/FastLab_byOpen" style="position: relative;"></a>
-    <a span target="_BLANK" class="footer_link ml-3 fab fa-linkedin-in" href="https://www.linkedin.com/showcase/fastlab-byopen/" style="position: relative;"></a>
-    <a span target="_BLANK" class="footer_link ml-3 fab fa-youtube" href="https://www.youtube.com/channel/UC5olDdGhJtS0koR4foBNf4A" style="position: relative;"></a>
+    <a href="../ProjetFastLab/homepage.html"><img style="position: relative;" class="col-sm-1 w-auto"
+                                                  src='../img/FastLab.png'/></a>
+    <a span target="_BLANK" class="footer_link fab fa-twitter" href="https://twitter.com/FastLab_byOpen"
+       style="position: relative;"></a>
+    <a span target="_BLANK" class="footer_link ml-3 fab fa-linkedin-in"
+       href="https://www.linkedin.com/showcase/fastlab-byopen/" style="position: relative;"></a>
+    <a span target="_BLANK" class="footer_link ml-3 fab fa-youtube"
+       href="https://www.youtube.com/channel/UC5olDdGhJtS0koR4foBNf4A" style="position: relative;"></a>
     <a span target="_BLANK" class="footer_link offset-sm-3" href="https://www.open.global/fr">OPEN GROUPE</a> |
     <a span class="footer_link" href="../ProjetFastLab/PPDP.html">POLITIQUE DE PROTECTION DES DONNEES PERSONNELLES</a> |
     <a span class="footer_link" href="../ProjetFastLab/Mentions%20légales.html">MENTIONS LEGALES ET CREDITS</a> |
     <a span class="footer_link" data-toggle="modal" data-target="#ModalContact">CONTACT</a>
-    <i class="ml-3 far fa-arrow-alt-circle-up fa-3x button-go-top__icon up_arrow fixed-bottom" onclick="topFunction()"> </i>
+    <i class="ml-3 far fa-arrow-alt-circle-up fa-3x button-go-top__icon up_arrow fixed-bottom"
+       onclick="topFunction()"> </i>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

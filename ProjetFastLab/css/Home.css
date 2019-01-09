@@ -1,37 +1,29 @@
-.actu {
-    background: #A42B78;
-}
-
-.menu {
-    color: black;
-    font-family: "Muli";
-}
-
-.actualites{
-    color: white;
-    font-family: "Muli";
-}
-
-.Social-wall{
+.video-prom{
+    background-color: #44a4d8;
     background-size: cover;
     font-family: "Muli","Arial",sans-serif;
     text-align: center;
-    color: #2575aa;
+    color: white;
+
 }
 
-.hr{
-    display:inline;
+.video{
+    border: 10px solid #91cdf5;
+    box-shadow: 0px 3px 10px black;
 }
 
-.wrapper {
-    display: flex;
+.video-prom div a{
+    color: white;
+    opacity: 0.5;
 }
 
-.line {
-    border-top: 1px solid grey;
-    flex-grow: 1;
-    margin-top: 2.8%;
-    margin-left: 1%;
+.video-prom div a:hover{
+    opacity: 1;
+    transition: ease-in 0.2s;
+}
+
+.video-prom div a i{
+    font-size: 50px;
 }
 
 .methodo{
@@ -44,31 +36,6 @@
     background-color: #f3f3f3;
     /*font-family: "Muli","Arial",sans-serif;
     font-size: 22px;*/
-}
-
-.actu-card{
-    color: white;
-}
-
-.modalColor{
-    background-color: #F7F7F7;
-}
-
-.btn-soumettre{
-    background-color: #4387AC;
-}
-
-.contacteznous{
-    color: #4387AC;
-}
-
-.showtext {
-    text-align: left;
-    margin-right: 20%;
-    margin-left: 20%;
-    opacity: 0;
-    transition: opacity 0.5s;
-    font-size: 2vw;
 }
 
 #showimagine {
@@ -103,9 +70,9 @@
 }
 
 #shapehover:hover > .shape {
-     filter:brightness(120%);
+    filter:brightness(120%);
     transition: 1s;
- }
+}
 
 #shapehover:hover ~ #showshape {
     opacity: 100;
@@ -181,6 +148,7 @@
     box-sizing: border-box;
 }
 
+
 .first {
     float: left;
     max-height: 100%;
@@ -203,46 +171,25 @@
     display: table;
 }
 
-.footer{
-    background-color:grey;
-    color:white;
-    padding-left: 16px;
-}
 
-.footer i:hover{
-    color:darkgrey;
-    transition: ease-in 0.2s;
-}
 
-.footer_link{
+.actu-card{
     color: white;
 }
 
-.up_arrow{
-    color: lightgrey;
-    left: 95%;
-    bottom: 5%;
+.actualites{
+    color: white;
+    font-family: "Muli";
 }
 
-.modalFull {
-    position: fixed;
-    top: 5%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
+.actu {
+    background: #A42B78;
 }
 
-.modal-dialog {
-    position: fixed;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    max-width: none;
+.Social-wall{
+    background-size: cover;
+    font-family: "Muli","Arial",sans-serif;
+    text-align: center;
+    color: #2575aa;
 }
 
-.unInput {
-    margin: 5%;
-    font-size: small;
-}

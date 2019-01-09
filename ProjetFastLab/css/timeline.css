@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     font-family: 'Muli', serif;
     font-weight: 300;
@@ -35,7 +39,7 @@
 }
 
 .wrapper .nav__wrapper .nav .nav-item a {
-    color: #fff;
+
     transition: all 0.15s ease-out;
     text-decoration: none;
 }
@@ -91,6 +95,8 @@
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
 }
+
+
 
 
 

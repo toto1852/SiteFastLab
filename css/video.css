@@ -9,5 +9,20 @@
 
 .video{
     border: 10px solid #91cdf5;
+    box-shadow: 0px 3px 10px black;
+}
+
+.video-prom div a{
+    color: white;
+    opacity: 0.5;
+}
+
+.video-prom div a:hover{
+    opacity: 1;
+    transition: ease-in 0.2s;
+}
+
+.video-prom div a i{
+    font-size: 50px;
 }
 

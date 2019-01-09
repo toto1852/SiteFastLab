@@ -5,6 +5,7 @@ html {
 .wrapper {
     font-family: 'Muli', serif;
     font-weight: 300;
+    z-index: 10;
 }
 
 .wrapper .nav__wrapper {

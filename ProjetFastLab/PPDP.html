@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="icon" href="img/favicon.ico"/>
-    <link rel="stylesheet" href="../ProjetFastLab/css/Offre.css">
+    <link rel="stylesheet" href="../ProjetFastLab/css/general.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
           integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
@@ -47,12 +47,15 @@
 </nav>
 
 <!-- CONTACT FORM -->
-<div class="modal fade" id="ModalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+<div class="modal modalFull" id="ModalContact" role="dialog">
+    <!--aria-labelledby="exampleModalLabel" aria-hidden="true" -->
+    <div class="modal-dialog" role="document">
         <div class="modal-content modalColor">
-            <div class="modal-header border-0 contacteznous">
-                <hr width="10%" color="#4387AC" size="5"><h5 class="text-center">Contactez-nous</h5><hr width="10%" color="#4387AC">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="modal-header contacteznous">
+                <hr width="5%" color="#4387AC" align="right">
+                <h5 class="text-center" style="padding-left: 1%; padding-right: 1%">Contactez-nous</h5>
+                <hr width="5%" color="#4387AC" align="left">
+                <button type="button" class="close" data-dismiss="modal" style="margin-left: 0">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -60,41 +63,52 @@
                 <form>
                     <div class="row">
                         <div class="col">
-                            NOM
-                            <input type="text" class="form-control rounded-0 border-0">
-                            FONCTION
-                            <input type="text" class="form-control rounded-0 border-0">
-                            JE VOUDRAIS ETRE CONTACTE(E) AU SUJET DE*
-                            <input type="text" class="form-control rounded-0 border-0">
+                            <div class="unInput">
+                                NOM
+                                <input type="text" class="form-control rounded-0 border-0">
+                            </div>
+                            <div class="unInput">
+                                FONCTION
+                                <input type="text" class="form-control rounded-0 border-0">
+                            </div>
+                            <div class="unInput">
+                                JE VOUDRAIS ETRE CONTACTE(E) AU SUJET DE*
+                                <input type="text" class="form-control rounded-0 border-0">
+                            </div><div class="unInput">
                             POLITIQUE DE PROTECTION DES DONNEES PERSONNELLES*
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                       value="option2">
                                 <label class="form-check-label" for="gridRadios2">
                                     J'ai lu et j'accepte
                                 </label>
-                            </div>
+                            </div></div>
                         </div>
                         <div class="col">
-                            PRENOM
-                            <input type="text" class="form-control rounded-0 border-0">
-                            SERVICES
-                            <select class="form-control rounded-0 border-0">
-                                <option selected>Sélectionner</option>
-                                <option>Informatique</option>
-                                <option>Informatique</option>
-                                <option>Informatique</option>
-                                <option>Informatique</option>
-                            </select>
-                            EMAIL*
-                            <input type="text" class="form-control rounded-0 border-0">
-                            TELEPHONE
-                            <input type="text" class="form-control rounded-0 border-0">
+                            <div class="unInput">
+                                PRENOM
+                                <input type="text" class="form-control rounded-0 border-0"></div>
+                            <div class="unInput">
+                                SERVICES
+                                <select class="form-control rounded-0 border-0">
+                                    <option selected>Sélectionner</option>
+                                    <option>Informatique</option>
+                                    <option>Informatique</option>
+                                    <option>Informatique</option>
+                                    <option>Informatique</option>
+                                </select></div>
+                            <div class="unInput">
+                                EMAIL*
+                                <input type="text" class="form-control rounded-0 border-0"></div>
+                            <div class="unInput">
+                                TELEPHONE
+                                <input type="text" class="form-control rounded-0 border-0"></div>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="modal-footer border-0">
-                <button type="button" class="btn btn-primary rounded-0 btn-soumettre border-0">SOUMETTRE</button>
+                <button type="button unInput" class="btn btn-primary rounded-0 btn-soumettre border-0" style="margin-right: 5%">SOUMETTRE</button>
             </div>
         </div>
     </div>
@@ -234,7 +248,7 @@
 
 <!-- FOOTER -->
 <div class="footer row align-items-center d-block py-5">
-    <a href="../ProjetFastLab/homepage.html"><img  style="position: relative;" class="col-sm-1 w-auto" src='../img/FastLab.png'/></a>
+    <a href="../ProjetFastLab/homepage.html"><img  style="position: relative;" class="col-sm-1 w-auto" src='img/FastLab.png'/></a>
     <a span target="_BLANK" class="footer_link fab fa-twitter" href="https://twitter.com/FastLab_byOpen" style="position: relative;"></a>
     <a span target="_BLANK" class="footer_link ml-3 fab fa-linkedin-in" href="https://www.linkedin.com/showcase/fastlab-byopen/" style="position: relative;"></a>
     <a span target="_BLANK" class="footer_link ml-3 fab fa-youtube" href="https://www.youtube.com/channel/UC5olDdGhJtS0koR4foBNf4A" style="position: relative;"></a>

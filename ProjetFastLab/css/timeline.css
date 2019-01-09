@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .wrapper {
     font-family: 'Muli', serif;
     font-weight: 300;
+    z-index: 10;
 }
 
 .wrapper .nav__wrapper {
@@ -35,9 +40,10 @@
 }
 
 .wrapper .nav__wrapper .nav .nav-item a {
-    color: #fff;
+
     transition: all 0.15s ease-out;
     text-decoration: none;
+    color: white;
 }
 
 .wrapper .nav__wrapper .nav .nav-item a:hover {
@@ -91,6 +97,8 @@
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
 }
+
+
 
 
 

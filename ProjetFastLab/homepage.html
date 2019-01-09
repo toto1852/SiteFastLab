@@ -7,6 +7,7 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="../ProjetFastLab/css/css.css">
     <link rel='stylesheet' type="text/css" href="../css/video.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.cs">
@@ -23,7 +24,8 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
-        <a href="../ProjetFastLab/homepage.html"><img src="../ProjetFastLab/img/logo_fastlab_byopen_0.png"  height="30" alt=""></a>
+        <a href="../ProjetFastLab/homepage.html"><img src="../ProjetFastLab/img/logo_fastlab_byopen_0.png" height="30"
+                                                      alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +46,8 @@
                     <a target="_BLANK" class="nav-link menu" href="https://www.open.global/fr">OPEN</a>
                 </li>
                 <li class="nav-item">
-                    <button data-toggle="modal" data-target="#ModalContact"class="btn border menu">CONTACTEZ-NOUS</button>
+                    <button data-toggle="modal" data-target="#ModalContact" class="btn border menu">CONTACTEZ-NOUS
+                    </button>
                 </li>
             </ul>
         </div>
@@ -52,12 +55,15 @@
 </nav>
 
 <!-- CONTACT FORM -->
-<div class="modal fade" id="ModalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+<div class="modal modalFull" id="ModalContact" role="dialog">
+    <!--aria-labelledby="exampleModalLabel" aria-hidden="true" -->
+    <div class="modal-dialog" role="document">
         <div class="modal-content modalColor">
-            <div class="modal-header border-0 contacteznous">
-                <hr width="10%" color="#4387AC" size="5"><h5 class="text-center">Contactez-nous</h5><hr width="10%" color="#4387AC">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="modal-header contacteznous">
+                <hr width="5%" color="#4387AC" align="right">
+                <h5 class="text-center" style="padding-left: 1%; padding-right: 1%">Contactez-nous</h5>
+                <hr width="5%" color="#4387AC" align="left">
+                <button type="button" class="close" data-dismiss="modal" style="margin-left: 0">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -65,41 +71,52 @@
                 <form>
                     <div class="row">
                         <div class="col">
-                            NOM
-                            <input type="text" class="form-control rounded-0 border-0">
-                            FONCTION
-                            <input type="text" class="form-control rounded-0 border-0">
-                            JE VOUDRAIS ETRE CONTACTE(E) AU SUJET DE*
-                            <input type="text" class="form-control rounded-0 border-0">
+                            <div class="unInput">
+                                NOM
+                                <input type="text" class="form-control rounded-0 border-0">
+                            </div>
+                            <div class="unInput">
+                                FONCTION
+                                <input type="text" class="form-control rounded-0 border-0">
+                            </div>
+                            <div class="unInput">
+                                JE VOUDRAIS ETRE CONTACTE(E) AU SUJET DE*
+                                <input type="text" class="form-control rounded-0 border-0">
+                            </div><div class="unInput">
                             POLITIQUE DE PROTECTION DES DONNEES PERSONNELLES*
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                       value="option2">
                                 <label class="form-check-label" for="gridRadios2">
                                     J'ai lu et j'accepte
                                 </label>
-                            </div>
+                            </div></div>
                         </div>
                         <div class="col">
-                            PRENOM
-                            <input type="text" class="form-control rounded-0 border-0">
-                            SERVICES
-                            <select class="form-control rounded-0 border-0">
-                                <option selected>Sélectionner</option>
-                                <option>Informatique</option>
-                                <option>Informatique</option>
-                                <option>Informatique</option>
-                                <option>Informatique</option>
-                            </select>
-                            EMAIL*
-                            <input type="text" class="form-control rounded-0 border-0">
-                            TELEPHONE
-                            <input type="text" class="form-control rounded-0 border-0">
+                            <div class="unInput">
+                                PRENOM
+                                <input type="text" class="form-control rounded-0 border-0"></div>
+                            <div class="unInput">
+                                SERVICES
+                                <select class="form-control rounded-0 border-0">
+                                    <option selected>Sélectionner</option>
+                                    <option>Informatique</option>
+                                    <option>Informatique</option>
+                                    <option>Informatique</option>
+                                    <option>Informatique</option>
+                                </select></div>
+                            <div class="unInput">
+                                EMAIL*
+                                <input type="text" class="form-control rounded-0 border-0"></div>
+                            <div class="unInput">
+                                TELEPHONE
+                                <input type="text" class="form-control rounded-0 border-0"></div>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="modal-footer border-0">
-                <button type="button" class="btn btn-primary rounded-0 btn-soumettre border-0">SOUMETTRE</button>
+                <button type="button unInput" class="btn btn-primary rounded-0 btn-soumettre border-0" style="margin-right: 5%">SOUMETTRE</button>
             </div>
         </div>
     </div>
@@ -116,14 +133,14 @@
             </li>
 
             <li class="nav-item" role="presentation">
-                <a href="#methodologie">
+                <a class="methodo-sec" href="#methodologie">
                     <i class="item-point material-icons">fiber_manual_record</i>
                     <span class="item-title">Notre méthodologie</span>
                 </a>
             </li>
 
             <li class="nav-item" role="presentation">
-                <a href="#actu">
+                <a class="actu-sec" href="#actu">
                     <i class="item-point material-icons">fiber_manual_record</i>
                     <span class="item-title">Nos actualités</span>
                 </a>
@@ -142,12 +159,13 @@
 <section class="section section1" id="video">
     <div class="video-prom row">
         <div class="offset-sm-3 col-sm-6">
-            <h2 class="prom h2">Accélérons ensemble votre <br>transformation digitale</h2>
+            <br><h1 class="prom">Accélérons ensemble votre</h1> <h1>transformation digitale</h1><br>
             <div class="video embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item"
                         src="https://www.youtube.com/embed/Y3AzUucRmaE?start=1&mute=1&autoplay=1" allowfullscreen></iframe>
             </div>
-            <h5 ><br>Découvrez le fastLab® en deux minutes de vidéo</h5>
+            <br><br><h5>Découvrez le fastLab® en deux minutes de vidéo</h5><br><br>
+            <a href="#methodologie"><i class="fas fa-chevron-circle-down"></i></a><br><br>
         </div>
     </div>
 </section>
@@ -155,7 +173,11 @@
 
 <section class="section section2" id="methodologie">
     <div class="Methodo">
-        <br/>
+        <div class="offset-sm-4 col-sm-4">
+            <div class="row align-items-center">
+                <hr width="10%" color="block" size="5"><h1 class="methodo text-center pt-5 pb-5">Notre Méthodologie</h1><hr width="10%" color="black">
+            </div>
+        </div>
         <div id="imaginehover" class="first">
             <img src="img/imagine.png" class="imagine" style="width:100%"/>
         </div>
@@ -172,24 +194,24 @@
             <img src="img/propulse.png" class="propulse" style="width:100%"/>
         </div>
 
-        <div id="showimagine" class="show">
-            <p><b>IMAGINE :</b></p>
+        <div id="showimagine" class="showtext">
+            <span class="wrapper"><p>IMAGINE :</p>  <div class="line"></div></span>
             Faisons émerger les idées innovantes à forte valeur ajoutée en réponse à vos enjeux afin d'en dégager des cas d'usage.
         </div>
-        <div id="showshape" class="show">
-            <p><b>SHAPE :</b></p>
+        <div id="showshape" class="showtext">
+            <span class="wrapper"><p>SHAPE :</p>  <div class="line"></div></span>
             Transformons les idées exprimées en phase IMAGINE en un prototype non fonctionnel.
         </div>
-        <div id="showgetready" class="show">
-            <p><b>GET READY :</b></p>
+        <div id="showgetready" class="showtext">
+            <span class="wrapper"><p>GET READY :</p>  <div class="line"></div></span>
             Levons les freins organisationnels, sécuritaires et juridiques avant de lancer votre projet.
         </div>
-        <div id="showmake" class="show">
-            <p><b>MAKE :</b></p>
+        <div id="showmake" class="showtext">
+            <span class="wrapper"><p>MAKE :</p>  <div class="line"></div></span>
             Développons votre MVP prêt à être industrialisé, au rythme de 6 semaines de sprints.
         </div>
-        <div id="showpropulse" class="show">
-            <p><b>PROPULSE :</b></p>
+        <div id="showpropulse" class="showtext">
+            <span class="wrapper"><p>PROPULSE :</p>  <div class="line"></div></span>
             Préparons la mise en production afin de simplifier l'industrialisation.
         </div>
     </div>
@@ -316,16 +338,18 @@
     </div>
 </section>
 
-<div class="Social-wall row mt-5">
-    <div class="offset-sm-4 col-sm-4">
-        <div class="row align-items-center mb-5">
-            <hr width="10%" size="5"><h1 class="Social-wall">SOCIAL WALL</h1><hr width="10%">
+<section class="section section4" id="social">
+    <div class="Social-wall row mt-5">
+        <div class="offset-sm-4 col-sm-4">
+            <div class="row align-items-center mb-5">
+                <hr width="10%" size="5"><h1 class="Social-wall">SOCIAL WALL</h1><hr width="10%">
+            </div>
+            <a class="twitter-timeline" data-height="770"
+               href="https://twitter.com/Fastlab_byOpen?ref_src=twsrc%5Etfw">Tweets by Fastlab_byOpen</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
-        <a class="twitter-timeline" data-height="770"
-           href="https://twitter.com/Fastlab_byOpen?ref_src=twsrc%5Etfw">Tweets by Fastlab_byOpen</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-</div>
+</section>
 
 <!-- FOOTER -->
 <div class="footer row align-items-center d-block py-5">
@@ -350,18 +374,7 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <script src="../ProjetFastLab/js/js.js"></script>
-<script>
-    // Add active class to the current button (highlight it)
-    var header = document.getElementById("navbar-example");
-    var links = header.getElementsByClassName("nav-item");
-    for (var i = 0; i < links.length; i++) {
-        links[i].addEventListener("click", function() {
-            var co = document.getElementsByClassName("active");
-            co[0].className = co[0].className.replace(" active", "");
-            this.className += " active";
-        });
-    }
-</script>
+
 
 <script>
     window.onscroll = function() {scrolling()};
@@ -370,27 +383,32 @@
         var header = document.getElementById("navbar-example");
         var links = header.getElementsByClassName("nav-item");
 
-        if ((document.body.scrollTop < 300 || document.documentElement.scrollTop < 300))  {
+        if ((document.body.scrollTop < 500 || document.documentElement.scrollTop < 500))  {
             for (var i = 0; i < links.length; i++) {
                 links[i].className="nav-item";
+                links[i].getElementsByClassName("item-title")[0].style.color="#FFFFFF";
             }
+
             links[0].className="nav-item active";
         }
-        if ((document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) && (document.body.scrollTop < 800 || document.documentElement.scrollTop < 800))  {
+        if ((document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) && (document.body.scrollTop < 1200 || document.documentElement.scrollTop < 1200))  {
             for (var i = 0; i < links.length; i++) {
                 links[i].className="nav-item";
+                links[i].getElementsByClassName("item-title")[0].style.color="#000000";
             }
             links[1].className="nav-item active";
         }
-        if ((document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) && (document.body.scrollTop < 1500 || document.documentElement.scrollTop < 1500))  {
+        if ((document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) && (document.body.scrollTop < 1500 || document.documentElement.scrollTop < 1500))  {
             for (var i = 0; i < links.length; i++) {
                 links[i].className="nav-item";
+                links[i].getElementsByClassName("item-title")[0].style.color="#FFFFFF";
             }
             links[2].className="nav-item active";
         }
-        if ((document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500))  {
+        if ((document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000))  {
             for (var i = 0; i < links.length; i++) {
                 links[i].className="nav-item";
+                links[i].getElementsByClassName("item-title")[0].style.color="#000000";
             }
             links[3].className="nav-item active";
         }

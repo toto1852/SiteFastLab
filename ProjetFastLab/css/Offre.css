@@ -1,48 +1,8 @@
-body {
-    overflow-x: hidden;
-}
-
-.btn-soumettre{
-    background-color: #4387AC;
-}
-
-.contacteznous{
-    color: #4387AC;
-}
-
-.menu {
-    color: black;
-    font-family: "Muli";
-}
-
-.modalColor{
-    background-color: #F7F7F7;
-}
-
-.text{
-    font-family: "Muli";
-}
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-.footer_link{
-    color: white;
-}
-
-.footer{
-    background-color:grey;
-    color:white;
-}
-
-.up_arrow{
-    color: lightgrey;
-    left: 95%;
-    bottom: 5%;
 }
 
 .double-pannel{

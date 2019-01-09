@@ -1,3 +1,4 @@
+/*Video */
 .video-prom{
     background-color: #44a4d8;
     background-size: cover;
@@ -26,6 +27,7 @@
     font-size: 50px;
 }
 
+/*Methodo */
 .methodo{
     color: black;
     font-family: "Muli";
@@ -148,7 +150,6 @@
     box-sizing: border-box;
 }
 
-
 .first {
     float: left;
     max-height: 100%;
@@ -171,25 +172,25 @@
     display: table;
 }
 
-
-
-.actu-card{
-    color: white;
+/*Actu */
+.actu {
+    background: #A42B78;
 }
+
 
 .actualites{
     color: white;
     font-family: "Muli";
 }
 
-.actu {
-    background: #A42B78;
+.actu-card{
+    color: white;
 }
 
+/*Social-wall */
 .Social-wall{
     background-size: cover;
     font-family: "Muli","Arial",sans-serif;
     text-align: center;
     color: #2575aa;
 }
-

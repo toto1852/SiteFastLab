@@ -1,8 +1,19 @@
-
+body {
+    overflow-x: hidden;
+}
 
 .menu {
     color: black;
     font-family: "Muli";
+}
+
+.showtext {
+    text-align: left;
+    margin-right: 20%;
+    margin-left: 20%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 2vw;
 }
 
 .hr{
@@ -22,23 +33,6 @@
 
 .modalColor{
     background-color: #F7F7F7;
-}
-
-.btn-soumettre{
-    background-color: #4387AC;
-}
-
-.contacteznous{
-    color: #4387AC;
-}
-
-.showtext {
-    text-align: left;
-    margin-right: 20%;
-    margin-left: 20%;
-    opacity: 0;
-    transition: opacity 0.5s;
-    font-size: 2vw;
 }
 
 .modalFull {
@@ -64,6 +58,14 @@
     font-size: small;
 }
 
+.btn-soumettre{
+    background-color: #4387AC;
+}
+
+.contacteznous{
+    color: #4387AC;
+}
+
 .footer{
     background-color:grey;
     color:white;
@@ -84,3 +86,4 @@
     left: 95%;
     bottom: 5%;
 }
+

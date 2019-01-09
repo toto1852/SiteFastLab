@@ -68,24 +68,24 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form name="contactform" method="post" action="../ProjetFastLab/php/contact.php">
                     <div class="row">
                         <div class="col">
                             <div class="unInput">
                                 NOM
-                                <input type="text" class="form-control rounded-0 border-0">
+                                <input name="nom" type="text" class="form-control rounded-0 border-0">
                             </div>
                             <div class="unInput">
                                 FONCTION
-                                <input type="text" class="form-control rounded-0 border-0">
+                                <input name="fonction" type="text" class="form-control rounded-0 border-0">
                             </div>
                             <div class="unInput">
                                 JE VOUDRAIS ETRE CONTACTE(E) AU SUJET DE*
-                                <input type="text" class="form-control rounded-0 border-0">
+                                <input name="raison" type="text" class="form-control rounded-0 border-0">
                             </div><div class="unInput">
                             POLITIQUE DE PROTECTION DES DONNEES PERSONNELLES*
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                <input name="politique" class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
                                        value="option2">
                                 <label class="form-check-label" for="gridRadios2">
                                     J'ai lu et j'accepte
@@ -95,7 +95,7 @@
                         <div class="col">
                             <div class="unInput">
                                 PRENOM
-                                <input type="text" class="form-control rounded-0 border-0"></div>
+                                <input name="prenom" type="text" class="form-control rounded-0 border-0"></div>
                             <div class="unInput">
                                 SERVICES
                                 <select class="form-control rounded-0 border-0">
@@ -107,16 +107,18 @@
                                 </select></div>
                             <div class="unInput">
                                 EMAIL*
-                                <input type="text" class="form-control rounded-0 border-0"></div>
+                                <input name="email"type="text" class="form-control rounded-0 border-0"></div>
                             <div class="unInput">
                                 TELEPHONE
-                                <input type="text" class="form-control rounded-0 border-0"></div>
+                                <input name="telephone" type="text" class="form-control rounded-0 border-0"></div>
                         </div>
                     </div>
-                </form>
-            </div>
+
+
             <div class="modal-footer border-0">
-                <button type="button unInput" class="btn btn-primary rounded-0 btn-soumettre border-0" style="margin-right: 5%">SOUMETTRE</button>
+                <input type="submit" value="Soumettre" class="btn btn-primary rounded-0 btn-soumettre border-0" style="margin-right: 5%"></input>
+            </div>
+            </form>
             </div>
         </div>
     </div>

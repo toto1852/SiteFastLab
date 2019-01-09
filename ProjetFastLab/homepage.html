@@ -157,7 +157,11 @@
 
 <section class="section section2" id="methodologie">
     <div class="Methodo">
-        <br/>
+        <div class="offset-sm-4 col-sm-4">
+            <div class="row align-items-center">
+                <hr width="10%" color="block" size="5"><h1 class="methodo text-center pt-5 pb-5">Notre Méthodologie</h1><hr width="10%" color="black">
+            </div>
+        </div>
         <div id="imaginehover" class="first">
             <img src="img/imagine.png" class="imagine" style="width:100%"/>
         </div>
@@ -175,23 +179,23 @@
         </div>
 
         <div id="showimagine" class="show">
-            <p><b>IMAGINE :</b></p>
+            <span class="wrapper"><p>IMAGINE :</p>  <div class="line"></div></span>
             Faisons émerger les idées innovantes à forte valeur ajoutée en réponse à vos enjeux afin d'en dégager des cas d'usage.
         </div>
         <div id="showshape" class="show">
-            <p><b>SHAPE :</b></p>
+            <span class="wrapper"><p>SHAPE :</p>  <div class="line"></div></span>
             Transformons les idées exprimées en phase IMAGINE en un prototype non fonctionnel.
         </div>
         <div id="showgetready" class="show">
-            <p><b>GET READY :</b></p>
+            <span class="wrapper"><p>GET READY :</p>  <div class="line"></div></span>
             Levons les freins organisationnels, sécuritaires et juridiques avant de lancer votre projet.
         </div>
         <div id="showmake" class="show">
-            <p><b>MAKE :</b></p>
+            <span class="wrapper"><p>MAKE :</p>  <div class="line"></div></span>
             Développons votre MVP prêt à être industrialisé, au rythme de 6 semaines de sprints.
         </div>
         <div id="showpropulse" class="show">
-            <p><b>PROPULSE :</b></p>
+            <span class="wrapper"><p>PROPULSE :</p>  <div class="line"></div></span>
             Préparons la mise en production afin de simplifier l'industrialisation.
         </div>
     </div>
@@ -371,21 +375,21 @@
 
             links[0].className="nav-item active";
         }
-        if ((document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) && (document.body.scrollTop < 950 || document.documentElement.scrollTop < 950))  {
+        if ((document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) && (document.body.scrollTop < 1200 || document.documentElement.scrollTop < 1200))  {
             for (var i = 0; i < links.length; i++) {
                 links[i].className="nav-item";
                 links[i].getElementsByClassName("item-title")[0].style.color="#000000";
             }
             links[1].className="nav-item active";
         }
-        if ((document.body.scrollTop > 950 || document.documentElement.scrollTop > 950) && (document.body.scrollTop < 1500 || document.documentElement.scrollTop < 1500))  {
+        if ((document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200) && (document.body.scrollTop < 1500 || document.documentElement.scrollTop < 1500))  {
             for (var i = 0; i < links.length; i++) {
                 links[i].className="nav-item";
                 links[i].getElementsByClassName("item-title")[0].style.color="#FFFFFF";
             }
             links[2].className="nav-item active";
         }
-        if ((document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500))  {
+        if ((document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000))  {
             for (var i = 0; i < links.length; i++) {
                 links[i].className="nav-item";
                 links[i].getElementsByClassName("item-title")[0].style.color="#000000";

@@ -42,6 +42,7 @@ html {
 
     transition: all 0.15s ease-out;
     text-decoration: none;
+    color: white;
 }
 
 .wrapper .nav__wrapper .nav .nav-item a:hover {

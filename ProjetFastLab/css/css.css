@@ -172,6 +172,11 @@ body {
     padding-left: 16px;
 }
 
+.footer i:hover{
+    color:darkgrey;
+    transition: ease-in 0.2s;
+}
+
 .footer_link{
     color: white;
 }
@@ -181,3 +186,4 @@ body {
     left: 95%;
     bottom: 5%;
 }
+

@@ -2,6 +2,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .limitwidth {
     max-width: 1400px;
     margin: 0 auto;
@@ -17,6 +21,7 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+
 .menu {
     color: black;
     font-family: "Muli";
@@ -24,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 
 .showtext {
     text-align: left;
-    margin-right: 15%;
+    margin-right: 20%;
     margin-left: 5%;
     opacity: 0;
     transition: opacity 0.5s;
@@ -36,7 +41,7 @@ h1, h2, h3, h4, h5, h6{
     display:inline;
 }
 
-.wrapper {
+.displayflex {
     display: flex;
 }
 

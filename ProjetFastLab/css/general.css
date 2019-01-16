@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar{
     background-color: white;
-    box-shadow: 0px 3px 10px dimgrey;
+    box-shadow: 0px 3px 10px grey;
 }
 
 .menu {
@@ -97,6 +97,11 @@ h1, h2, h3, h4, h5, h6{
     background-color:grey;
     color:white;
     padding-left: 16px;
+}
+
+.footer a:hover{
+    color:lightblue;
+    text-decoration:none;
 }
 
 .footer i:hover{

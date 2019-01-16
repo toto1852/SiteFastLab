@@ -1,0 +1,20 @@
+.center-head {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.pannel{
+    background: #A42B78;
+    color:white;
+}
+
+.photo{
+    display: inline-block;
+}
+
+.photo-row{
+    background-color: #F7F7F7;
+    padding: 0px;
+}

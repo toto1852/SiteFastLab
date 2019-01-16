@@ -21,13 +21,14 @@
 
 ul {
     list-style: none;
+    margin-left: 1em;
 }
 
 .pannel::before {
     content: "\25AA";
-    font-size: 30px;
-    padding: 2px 0px;
-    color: green;
+    font-size: 40px;
+    padding: 0px 5px;
+    color: lightgreen;
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -35,7 +36,7 @@ ul {
 }
 
 .pannel {
-    padding: 7px 0px;
+    line-height:20px;
 }
 
 .photo{
@@ -45,4 +46,9 @@ ul {
 .photo-row{
     background-color: #F7F7F7;
    padding: 0px;
+}
+
+.title{
+    margin-left: 20px;
+    font-size: 23px;
 }

@@ -1,11 +1,12 @@
 /*Video */
 .video-prom{
-    background-color: #44a4d8;
-    background-size: cover;
     font-family: "Muli","Arial",sans-serif;
     text-align: center;
     color: white;
-    margin:0;
+}
+
+.section1{
+    background-color: #44a4d8;
 }
 
 .video{
@@ -174,6 +175,10 @@
 
 /*Actu */
 .actu {
+
+}
+
+.section3{
     background: #A42B78;
 }
 

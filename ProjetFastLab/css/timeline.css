@@ -12,7 +12,7 @@ html {
     position: fixed;
     height: 100%;
     top: 38%;
-    left: 5%;
+    left: 2%;
     z-index: 10;
 }
 
@@ -96,6 +96,12 @@ html {
     overflow: hidden;
     opacity: 0;
     transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper{
+        display:none;
+    }
 }
 
 
